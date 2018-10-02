@@ -61,14 +61,62 @@
 		0EC323B621639C68004592BE /* Pytch */ = {
 			isa = PBXGroup;
 			children = (
-				0EC323B721639C68004592BE /* AppDelegate.swift */,
-				0EC323B921639C68004592BE /* ViewController.swift */,
-				0EC323BB21639C68004592BE /* Main.storyboard */,
-				0EC323BE21639C69004592BE /* Assets.xcassets */,
-				0EC323C021639C69004592BE /* LaunchScreen.storyboard */,
-				0EC323C321639C6A004592BE /* Info.plist */,
+				0EC323CB2163B893004592BE /* Classes */,
+				0EC323CC2163B89C004592BE /* Resources */,
 			);
 			path = Pytch;
+			sourceTree = "<group>";
+		};
+		0EC323C92163B862004592BE /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0EC323B721639C68004592BE /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		0EC323CA2163B87D004592BE /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				0EC323C021639C69004592BE /* LaunchScreen.storyboard */,
+				0EC323BB21639C68004592BE /* Main.storyboard */,
+				0EC323B921639C68004592BE /* ViewController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		0EC323CB2163B893004592BE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0EC323C92163B862004592BE /* Application */,
+				0EC323CA2163B87D004592BE /* Presentation */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0EC323CC2163B89C004592BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0EC323CE2163B8C2004592BE /* Images */,
+				0EC323CD2163B8AC004592BE /* Plists */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0EC323CD2163B8AC004592BE /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				0EC323C321639C6A004592BE /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		0EC323CE2163B8C2004592BE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0EC323BE21639C69004592BE /* Assets.xcassets */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		8DAC57DD0FFC94F15ACFEDBC /* Pods */ = {
@@ -358,7 +406,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JKFT3KNQJ6;
-				INFOPLIST_FILE = Pytch/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Pytch/Resources/Plists/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,7 +425,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JKFT3KNQJ6;
-				INFOPLIST_FILE = Pytch/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Pytch/Resources/Plists/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
