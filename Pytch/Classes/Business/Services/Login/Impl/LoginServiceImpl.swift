@@ -8,6 +8,6 @@
 
 import Foundation
 
-class LoginServiceImpl {
+class LoginServiceImpl: LoginService {
     var isLoggedIn = false
 }

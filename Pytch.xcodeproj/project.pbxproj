@@ -36,6 +36,7 @@
 		0E8397432166581E004BEA60 /* TabBarInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8397422166581E004BEA60 /* TabBarInitializer.swift */; };
 		0E8397452166584E004BEA60 /* TabBarConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8397442166584E004BEA60 /* TabBarConfigurator.swift */; };
 		0E839747216658FD004BEA60 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E839746216658FD004BEA60 /* AppAssembly.swift */; };
+		0E83974A216659A0004BEA60 /* BusinessAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E839749216659A0004BEA60 /* BusinessAssembly.swift */; };
 		0EC323B821639C68004592BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC323B721639C68004592BE /* AppDelegate.swift */; };
 		0EC323BA21639C68004592BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC323B921639C68004592BE /* ViewController.swift */; };
 		0EC323BD21639C68004592BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC323BB21639C68004592BE /* Main.storyboard */; };
@@ -74,6 +75,7 @@
 		0E8397422166581E004BEA60 /* TabBarInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarInitializer.swift; sourceTree = "<group>"; };
 		0E8397442166584E004BEA60 /* TabBarConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarConfigurator.swift; sourceTree = "<group>"; };
 		0E839746216658FD004BEA60 /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
+		0E839749216659A0004BEA60 /* BusinessAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessAssembly.swift; sourceTree = "<group>"; };
 		0EC323B421639C68004592BE /* Pytch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pytch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC323B721639C68004592BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EC323B921639C68004592BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 		0E83970621665055004BEA60 /* Business */ = {
 			isa = PBXGroup;
 			children = (
+				0E83974821665990004BEA60 /* Assembly */,
 				0E839707216650BC004BEA60 /* Services */,
 			);
 			path = Business;
@@ -265,6 +268,14 @@
 				0E83972C21665556004BEA60 /* TabBar.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0E83974821665990004BEA60 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				0E839749216659A0004BEA60 /* BusinessAssembly.swift */,
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 		0EC323AB21639C68004592BE = {
@@ -504,6 +515,7 @@
 				0E83971721665225004BEA60 /* LoginRouter.swift in Sources */,
 				0E839747216658FD004BEA60 /* AppAssembly.swift in Sources */,
 				0E83972F21665591004BEA60 /* TabBarViewController.swift in Sources */,
+				0E83974A216659A0004BEA60 /* BusinessAssembly.swift in Sources */,
 				0E83970A216650D8004BEA60 /* LoginService.swift in Sources */,
 				0E8397352166561B004BEA60 /* TabBarRouterInput.swift in Sources */,
 				0E839741216657DE004BEA60 /* TabBarPresenter.swift in Sources */,
