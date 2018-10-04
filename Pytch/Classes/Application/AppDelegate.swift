@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Swinject
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let r = AppAssembly.shared.assembler.resolver
+        let loginService = r.resolve(LoginService.self)!
+        var mainStoryboard: UIStoryboard? = nil
+        if loginService.isLoggedIn {
+            mainStoryboard = UIStoryboard(name: "TabBar", bundle: .main)
+        } else {
+            mainStoryboard = UIStoryboard(name: "Login", bundle: .main)
+        }
+        let rootController = mainStoryboard!.instantiateInitialViewController()
+        self.window?.rootViewController = rootController
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 

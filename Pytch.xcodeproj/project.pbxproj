@@ -38,8 +38,6 @@
 		0E839747216658FD004BEA60 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E839746216658FD004BEA60 /* AppAssembly.swift */; };
 		0E83974A216659A0004BEA60 /* BusinessAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E839749216659A0004BEA60 /* BusinessAssembly.swift */; };
 		0EC323B821639C68004592BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC323B721639C68004592BE /* AppDelegate.swift */; };
-		0EC323BA21639C68004592BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC323B921639C68004592BE /* ViewController.swift */; };
-		0EC323BD21639C68004592BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC323BB21639C68004592BE /* Main.storyboard */; };
 		0EC323BF21639C69004592BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC323BE21639C69004592BE /* Assets.xcassets */; };
 		0EC323C221639C69004592BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC323C021639C69004592BE /* LaunchScreen.storyboard */; };
 		B8BB3D80258FC87DFF55B768 /* Pods_Pytch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C603F211E2D9E84DBAD26980 /* Pods_Pytch.framework */; };
@@ -78,8 +76,6 @@
 		0E839749216659A0004BEA60 /* BusinessAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessAssembly.swift; sourceTree = "<group>"; };
 		0EC323B421639C68004592BE /* Pytch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pytch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC323B721639C68004592BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0EC323B921639C68004592BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0EC323BC21639C68004592BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0EC323BE21639C69004592BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EC323C121639C69004592BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EC323C321639C6A004592BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -320,8 +316,6 @@
 				0E8396FC21664CDE004BEA60 /* Login */,
 				0E8396FD21664E86004BEA60 /* TabBar */,
 				0EC323C021639C69004592BE /* LaunchScreen.storyboard */,
-				0EC323BB21639C68004592BE /* Main.storyboard */,
-				0EC323B921639C68004592BE /* ViewController.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -442,7 +436,6 @@
 				0E83970521664EF5004BEA60 /* Login.storyboard in Resources */,
 				0EC323C221639C69004592BE /* LaunchScreen.storyboard in Resources */,
 				0EC323BF21639C69004592BE /* Assets.xcassets in Resources */,
-				0EC323BD21639C68004592BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,7 +497,6 @@
 			files = (
 				0E83973721665629004BEA60 /* TabBarRouter.swift in Sources */,
 				0E83972321665432004BEA60 /* LoginInitializer.swift in Sources */,
-				0EC323BA21639C68004592BE /* ViewController.swift in Sources */,
 				0E83971921665379004BEA60 /* LoginInteractorOutput.swift in Sources */,
 				0E839721216653D3004BEA60 /* LoginPresenter.swift in Sources */,
 				0E83971121665193004BEA60 /* LoginViewInput.swift in Sources */,
@@ -538,14 +530,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0EC323BB21639C68004592BE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0EC323BC21639C68004592BE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0EC323C021639C69004592BE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -608,7 +592,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -663,7 +647,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -688,7 +672,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = app.pytch.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -707,7 +691,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = app.pytch.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
