@@ -22,6 +22,19 @@
 		0E839721216653D3004BEA60 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E839720216653D3004BEA60 /* LoginPresenter.swift */; };
 		0E83972321665432004BEA60 /* LoginInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E83972221665432004BEA60 /* LoginInitializer.swift */; };
 		0E8397252166545A004BEA60 /* LoginConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8397242166545A004BEA60 /* LoginConfigurator.swift */; };
+		0E83972D21665556004BEA60 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E83972C21665556004BEA60 /* TabBar.storyboard */; };
+		0E83972F21665591004BEA60 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E83972E21665591004BEA60 /* TabBarViewController.swift */; };
+		0E839731216655E5004BEA60 /* TabBarViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E839730216655E5004BEA60 /* TabBarViewInput.swift */; };
+		0E839733216655F5004BEA60 /* TabBarViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E839732216655F5004BEA60 /* TabBarViewOutput.swift */; };
+		0E8397352166561B004BEA60 /* TabBarRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8397342166561B004BEA60 /* TabBarRouterInput.swift */; };
+		0E83973721665629004BEA60 /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E83973621665629004BEA60 /* TabBarRouter.swift */; };
+		0E83973921665649004BEA60 /* TabBarInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E83973821665649004BEA60 /* TabBarInteractorInput.swift */; };
+		0E83973B21665656004BEA60 /* TabBarInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E83973A21665656004BEA60 /* TabBarInteractorOutput.swift */; };
+		0E83973D21665667004BEA60 /* TabBarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E83973C21665667004BEA60 /* TabBarInteractor.swift */; };
+		0E83973F216657CC004BEA60 /* TabBarModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E83973E216657CC004BEA60 /* TabBarModuleInput.swift */; };
+		0E839741216657DE004BEA60 /* TabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E839740216657DE004BEA60 /* TabBarPresenter.swift */; };
+		0E8397432166581E004BEA60 /* TabBarInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8397422166581E004BEA60 /* TabBarInitializer.swift */; };
+		0E8397452166584E004BEA60 /* TabBarConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8397442166584E004BEA60 /* TabBarConfigurator.swift */; };
 		0EC323B821639C68004592BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC323B721639C68004592BE /* AppDelegate.swift */; };
 		0EC323BA21639C68004592BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC323B921639C68004592BE /* ViewController.swift */; };
 		0EC323BD21639C68004592BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC323BB21639C68004592BE /* Main.storyboard */; };
@@ -46,6 +59,19 @@
 		0E839720216653D3004BEA60 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		0E83972221665432004BEA60 /* LoginInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInitializer.swift; sourceTree = "<group>"; };
 		0E8397242166545A004BEA60 /* LoginConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConfigurator.swift; sourceTree = "<group>"; };
+		0E83972C21665556004BEA60 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		0E83972E21665591004BEA60 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		0E839730216655E5004BEA60 /* TabBarViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewInput.swift; sourceTree = "<group>"; };
+		0E839732216655F5004BEA60 /* TabBarViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewOutput.swift; sourceTree = "<group>"; };
+		0E8397342166561B004BEA60 /* TabBarRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRouterInput.swift; sourceTree = "<group>"; };
+		0E83973621665629004BEA60 /* TabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
+		0E83973821665649004BEA60 /* TabBarInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarInteractorInput.swift; sourceTree = "<group>"; };
+		0E83973A21665656004BEA60 /* TabBarInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarInteractorOutput.swift; sourceTree = "<group>"; };
+		0E83973C21665667004BEA60 /* TabBarInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarInteractor.swift; sourceTree = "<group>"; };
+		0E83973E216657CC004BEA60 /* TabBarModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModuleInput.swift; sourceTree = "<group>"; };
+		0E839740216657DE004BEA60 /* TabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPresenter.swift; sourceTree = "<group>"; };
+		0E8397422166581E004BEA60 /* TabBarInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarInitializer.swift; sourceTree = "<group>"; };
+		0E8397442166584E004BEA60 /* TabBarConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarConfigurator.swift; sourceTree = "<group>"; };
 		0EC323B421639C68004592BE /* Pytch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pytch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC323B721639C68004592BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EC323B921639C68004592BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +112,12 @@
 		0E8396FD21664E86004BEA60 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				0E83972B21665548004BEA60 /* Storyboard */,
+				0E83972A21665542004BEA60 /* Assembly */,
+				0E8397292166553B004BEA60 /* Interactor */,
+				0E83972821665536004BEA60 /* Presenter */,
+				0E83972721665530004BEA60 /* Router */,
+				0E8397262166552B004BEA60 /* View */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -176,6 +208,61 @@
 				0E83970C2166513F004BEA60 /* LoginServiceImpl.swift */,
 			);
 			path = Impl;
+			sourceTree = "<group>";
+		};
+		0E8397262166552B004BEA60 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E839730216655E5004BEA60 /* TabBarViewInput.swift */,
+				0E839732216655F5004BEA60 /* TabBarViewOutput.swift */,
+				0E83972E21665591004BEA60 /* TabBarViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E83972721665530004BEA60 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0E8397342166561B004BEA60 /* TabBarRouterInput.swift */,
+				0E83973621665629004BEA60 /* TabBarRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0E83972821665536004BEA60 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0E83973E216657CC004BEA60 /* TabBarModuleInput.swift */,
+				0E839740216657DE004BEA60 /* TabBarPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0E8397292166553B004BEA60 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0E83973821665649004BEA60 /* TabBarInteractorInput.swift */,
+				0E83973A21665656004BEA60 /* TabBarInteractorOutput.swift */,
+				0E83973C21665667004BEA60 /* TabBarInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		0E83972A21665542004BEA60 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				0E8397422166581E004BEA60 /* TabBarInitializer.swift */,
+				0E8397442166584E004BEA60 /* TabBarConfigurator.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		0E83972B21665548004BEA60 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0E83972C21665556004BEA60 /* TabBar.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 		0EC323AB21639C68004592BE = {
@@ -337,6 +424,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E83972D21665556004BEA60 /* TabBar.storyboard in Resources */,
 				0E83970521664EF5004BEA60 /* Login.storyboard in Resources */,
 				0EC323C221639C69004592BE /* LaunchScreen.storyboard in Resources */,
 				0EC323BF21639C69004592BE /* Assets.xcassets in Resources */,
@@ -400,6 +488,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E83973721665629004BEA60 /* TabBarRouter.swift in Sources */,
 				0E83972321665432004BEA60 /* LoginInitializer.swift in Sources */,
 				0EC323BA21639C68004592BE /* ViewController.swift in Sources */,
 				0E83971921665379004BEA60 /* LoginInteractorOutput.swift in Sources */,
@@ -407,13 +496,24 @@
 				0E83971121665193004BEA60 /* LoginViewInput.swift in Sources */,
 				0E83970D2166513F004BEA60 /* LoginServiceImpl.swift in Sources */,
 				0E83971521665215004BEA60 /* LoginRouterInput.swift in Sources */,
+				0E83973D21665667004BEA60 /* TabBarInteractor.swift in Sources */,
 				0E839713216651E1004BEA60 /* LoginViewOutput.swift in Sources */,
 				0E83971721665225004BEA60 /* LoginRouter.swift in Sources */,
+				0E83972F21665591004BEA60 /* TabBarViewController.swift in Sources */,
 				0E83970A216650D8004BEA60 /* LoginService.swift in Sources */,
+				0E8397352166561B004BEA60 /* TabBarRouterInput.swift in Sources */,
+				0E839741216657DE004BEA60 /* TabBarPresenter.swift in Sources */,
 				0E83971F216653C3004BEA60 /* LoginModuleInput.swift in Sources */,
 				0E83971D216653A6004BEA60 /* LoginInteractor.swift in Sources */,
+				0E83973B21665656004BEA60 /* TabBarInteractorOutput.swift in Sources */,
+				0E8397452166584E004BEA60 /* TabBarConfigurator.swift in Sources */,
 				0E83970F2166517E004BEA60 /* LoginViewController.swift in Sources */,
+				0E839733216655F5004BEA60 /* TabBarViewOutput.swift in Sources */,
 				0EC323B821639C68004592BE /* AppDelegate.swift in Sources */,
+				0E839731216655E5004BEA60 /* TabBarViewInput.swift in Sources */,
+				0E83973921665649004BEA60 /* TabBarInteractorInput.swift in Sources */,
+				0E83973F216657CC004BEA60 /* TabBarModuleInput.swift in Sources */,
+				0E8397432166581E004BEA60 /* TabBarInitializer.swift in Sources */,
 				0E8397252166545A004BEA60 /* LoginConfigurator.swift in Sources */,
 				0E83971B2166539B004BEA60 /* LoginInteractorInput.swift in Sources */,
 			);
