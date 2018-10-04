@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1E83F790749C8F20538EE1D3569D25AD"
-               BlueprintName = "Swinject"
+               BlueprintIdentifier = "81B306DE93BCB67E1749E2700FEC09F5"
+               BlueprintName = "LightRoute"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "Swinject.framework">
+               BuildableName = "LightRoute.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
