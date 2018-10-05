@@ -10,4 +10,11 @@ import Foundation
 
 class LoginInteractor: LoginInteractorInput {
     weak var output: LoginInteractorOutput!
+    
+    var loginService: LoginService!
+    
+    func login() {
+        loginService.login()
+        output.didLogin()
+    }
 }

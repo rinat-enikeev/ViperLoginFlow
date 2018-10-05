@@ -10,4 +10,12 @@ import Foundation
 
 class LoginServiceImpl: LoginService {
     var isLoggedIn = false
+    
+    func login() {
+        isLoggedIn = true
+    }
+    
+    func logout() {
+        isLoggedIn = false
+    }
 }

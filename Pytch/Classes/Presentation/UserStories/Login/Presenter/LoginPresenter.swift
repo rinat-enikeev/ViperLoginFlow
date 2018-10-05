@@ -16,10 +16,12 @@ class LoginPresenter: LoginModuleInput {
 
 extension LoginPresenter: LoginViewOutput {
     func login() {
-        
+        interactor.login()
     }
 }
 
 extension LoginPresenter: LoginInteractorOutput {
-    
+    func didLogin() {
+        router.openRootScene()
+    }
 }

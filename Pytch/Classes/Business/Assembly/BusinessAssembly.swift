@@ -13,6 +13,6 @@ class BusinessAssembly: Assembly {
         container.register(LoginService.self) { r in
             let service = LoginServiceImpl()
             return service
-        }
+        }.inObjectScope(.container)
     }
 }

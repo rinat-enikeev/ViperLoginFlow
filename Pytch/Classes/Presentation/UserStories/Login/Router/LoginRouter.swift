@@ -10,4 +10,9 @@ import LightRoute
 
 class LoginRouter: LoginRouterInput {
     weak var transitionHandler: TransitionHandler!
+    var rootRouter: RootRouter!
+    
+    func openRootScene() {
+        rootRouter.openRootScene()
+    }
 }
