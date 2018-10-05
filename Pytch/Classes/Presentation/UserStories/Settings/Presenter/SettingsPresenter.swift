@@ -15,9 +15,13 @@ class SettingsPresenter: SettingsModuleInput {
 }
 
 extension SettingsPresenter: SettingsViewOutput {
-    
+    func logout() {
+        interactor.logout()
+    }
 }
 
 extension SettingsPresenter: SettingsInteractorOutput {
-    
+    func didLogout() {
+        router.openRootScene()
+    }
 }

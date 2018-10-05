@@ -6,12 +6,16 @@
 //  Copyright © 2018 Aparlay Limited. All rights reserved.
 //
 
-import Foundation
+import Swinject
 
 class SettingsConfigurator {
     func configure(view: SettingsViewController) {
+        
+        let r = AppAssembly.shared.assembler.resolver
+        
         let router = SettingsRouter()
         router.transitionHandler = view
+        router.rootRouter = r.resolve(RootRouter.self)
         
         let presenter = SettingsPresenter()
         presenter.view = view
@@ -19,6 +23,7 @@ class SettingsConfigurator {
         
         let interactor = SettingsInteractor()
         interactor.output = presenter
+        interactor.loginService = r.resolve(LoginService.self)
         
         presenter.interactor = interactor
         

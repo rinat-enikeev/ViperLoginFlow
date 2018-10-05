@@ -9,5 +9,5 @@
 import Foundation
 
 protocol SettingsInteractorOutput: class {
-    
+    func didLogout()
 }

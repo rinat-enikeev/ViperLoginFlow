@@ -12,6 +12,15 @@ class SettingsViewController: UIViewController {
     var output: SettingsViewOutput!
 }
 
+// MARK: - SettingsViewInput
 extension SettingsViewController: SettingsViewInput {
     
+}
+
+// MARK: - IBActions
+extension SettingsViewController {
+    
+    @IBAction func logoutTouchUpInside(_ sender: Any) {
+        output.logout()
+    }
 }

@@ -10,4 +10,10 @@ import Foundation
 
 class SettingsInteractor: SettingsInteractorInput {
     weak var output: SettingsInteractorOutput!
+    var loginService: LoginService!
+    
+    func logout() {
+        loginService.logout()
+        output.didLogout()
+    }
 }
