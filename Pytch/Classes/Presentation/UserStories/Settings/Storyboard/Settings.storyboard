@@ -13,13 +13,13 @@
         <!--View Controller-->
         <scene sceneID="9sf-OP-r6M">
             <objects>
-                <viewController id="4bd-gc-N7V" customClass="SettingsViewController" customModule="Pytch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingsViewController" id="4bd-gc-N7V" customClass="SettingsViewController" customModule="Pytch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yi9-Zx-rYQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jWL-sZ-iwy">
-                                <rect key="frame" x="163.5" y="328.5" width="48" height="30"/>
+                                <rect key="frame" x="163.5" y="304" width="48" height="30"/>
                                 <state key="normal" title="Logout"/>
                             </button>
                         </subviews>
@@ -30,6 +30,8 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sfm-uL-Kiw"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Settings" id="Fst-4a-xD3"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N3M-qW-5Sz" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="n1M-1j-Ric" customClass="SettingsInitializer" customModule="Pytch" customModuleProvider="target">
