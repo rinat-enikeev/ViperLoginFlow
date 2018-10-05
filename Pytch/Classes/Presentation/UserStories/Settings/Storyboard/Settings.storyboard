@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4bd-gc-N7V">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="9sf-OP-r6M">
+            <objects>
+                <viewController id="4bd-gc-N7V" customClass="SettingsViewController" customModule="Pytch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yi9-Zx-rYQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jWL-sZ-iwy">
+                                <rect key="frame" x="163.5" y="328.5" width="48" height="30"/>
+                                <state key="normal" title="Logout"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jWL-sZ-iwy" firstAttribute="centerX" secondItem="sfm-uL-Kiw" secondAttribute="centerX" id="1SO-sh-1gd"/>
+                            <constraint firstItem="jWL-sZ-iwy" firstAttribute="centerY" secondItem="sfm-uL-Kiw" secondAttribute="centerY" id="dBD-hE-faJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sfm-uL-Kiw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N3M-qW-5Sz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="n1M-1j-Ric" customClass="SettingsInitializer" customModule="Pytch" customModuleProvider="target">
+                    <connections>
+                        <outlet property="viewController" destination="4bd-gc-N7V" id="vGL-82-deI"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="113" y="128"/>
+        </scene>
+    </scenes>
+</document>

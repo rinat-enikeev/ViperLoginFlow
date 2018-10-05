@@ -9,6 +9,19 @@
 /* Begin PBXBuildFile section */
 		0E81E4E52167557500772274 /* RootRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E4E42167557500772274 /* RootRouterImpl.swift */; };
 		0E81E4E8216755E500772274 /* PresentationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E4E7216755E500772274 /* PresentationAssembly.swift */; };
+		0E81E4F12167718400772274 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E81E4F02167718400772274 /* Settings.storyboard */; };
+		0E81E4F3216771C100772274 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E4F2216771C100772274 /* SettingsViewController.swift */; };
+		0E81E4F5216771FB00772274 /* SettingsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E4F4216771FB00772274 /* SettingsViewInput.swift */; };
+		0E81E4F72167723500772274 /* SettingsViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E4F62167723500772274 /* SettingsViewOutput.swift */; };
+		0E81E4F92167734400772274 /* SettingsRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E4F82167734400772274 /* SettingsRouterInput.swift */; };
+		0E81E4FB2167735600772274 /* SettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E4FA2167735600772274 /* SettingsRouter.swift */; };
+		0E81E4FD2167737600772274 /* SettingsInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E4FC2167737600772274 /* SettingsInteractorInput.swift */; };
+		0E81E4FF2167738B00772274 /* SettingsInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E4FE2167738B00772274 /* SettingsInteractorOutput.swift */; };
+		0E81E5012167739800772274 /* SettingsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E5002167739800772274 /* SettingsInteractor.swift */; };
+		0E81E503216773B400772274 /* SettingsModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E502216773B400772274 /* SettingsModuleInput.swift */; };
+		0E81E505216773C300772274 /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E504216773C300772274 /* SettingsPresenter.swift */; };
+		0E81E5072167746400772274 /* SettingsInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E5062167746400772274 /* SettingsInitializer.swift */; };
+		0E81E509216774B900772274 /* SettingsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E508216774B900772274 /* SettingsConfigurator.swift */; };
 		0E83970521664EF5004BEA60 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E83970421664EF5004BEA60 /* Login.storyboard */; };
 		0E83970A216650D8004BEA60 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E839709216650D8004BEA60 /* LoginService.swift */; };
 		0E83970D2166513F004BEA60 /* LoginServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E83970C2166513F004BEA60 /* LoginServiceImpl.swift */; };
@@ -49,6 +62,19 @@
 /* Begin PBXFileReference section */
 		0E81E4E42167557500772274 /* RootRouterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouterImpl.swift; sourceTree = "<group>"; };
 		0E81E4E7216755E500772274 /* PresentationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationAssembly.swift; sourceTree = "<group>"; };
+		0E81E4F02167718400772274 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		0E81E4F2216771C100772274 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0E81E4F4216771FB00772274 /* SettingsViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewInput.swift; sourceTree = "<group>"; };
+		0E81E4F62167723500772274 /* SettingsViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewOutput.swift; sourceTree = "<group>"; };
+		0E81E4F82167734400772274 /* SettingsRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouterInput.swift; sourceTree = "<group>"; };
+		0E81E4FA2167735600772274 /* SettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouter.swift; sourceTree = "<group>"; };
+		0E81E4FC2167737600772274 /* SettingsInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsInteractorInput.swift; sourceTree = "<group>"; };
+		0E81E4FE2167738B00772274 /* SettingsInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsInteractorOutput.swift; sourceTree = "<group>"; };
+		0E81E5002167739800772274 /* SettingsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsInteractor.swift; sourceTree = "<group>"; };
+		0E81E502216773B400772274 /* SettingsModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModuleInput.swift; sourceTree = "<group>"; };
+		0E81E504216773C300772274 /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
+		0E81E5062167746400772274 /* SettingsInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsInitializer.swift; sourceTree = "<group>"; };
+		0E81E508216774B900772274 /* SettingsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsConfigurator.swift; sourceTree = "<group>"; };
 		0E83970421664EF5004BEA60 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		0E839709216650D8004BEA60 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		0E83970C2166513F004BEA60 /* LoginServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginServiceImpl.swift; sourceTree = "<group>"; };
@@ -108,6 +134,74 @@
 				0E81E4E7216755E500772274 /* PresentationAssembly.swift */,
 			);
 			path = Assembly;
+			sourceTree = "<group>";
+		};
+		0E81E4E921676D0200772274 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0E81E4EF2167717400772274 /* Storyboard */,
+				0E81E4EE2167716F00772274 /* Assembly */,
+				0E81E4ED2167716A00772274 /* Interactor */,
+				0E81E4EC2167716300772274 /* Presenter */,
+				0E81E4EB2167715A00772274 /* Router */,
+				0E81E4EA2167714F00772274 /* View */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		0E81E4EA2167714F00772274 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E81E4F4216771FB00772274 /* SettingsViewInput.swift */,
+				0E81E4F62167723500772274 /* SettingsViewOutput.swift */,
+				0E81E4F2216771C100772274 /* SettingsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E81E4EB2167715A00772274 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0E81E4F82167734400772274 /* SettingsRouterInput.swift */,
+				0E81E4FA2167735600772274 /* SettingsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0E81E4EC2167716300772274 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0E81E502216773B400772274 /* SettingsModuleInput.swift */,
+				0E81E504216773C300772274 /* SettingsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0E81E4ED2167716A00772274 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0E81E4FC2167737600772274 /* SettingsInteractorInput.swift */,
+				0E81E4FE2167738B00772274 /* SettingsInteractorOutput.swift */,
+				0E81E5002167739800772274 /* SettingsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		0E81E4EE2167716F00772274 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				0E81E5062167746400772274 /* SettingsInitializer.swift */,
+				0E81E508216774B900772274 /* SettingsConfigurator.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		0E81E4EF2167717400772274 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0E81E4F02167718400772274 /* Settings.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 		0E8396FC21664CDE004BEA60 /* Login */ = {
@@ -292,6 +386,7 @@
 			isa = PBXGroup;
 			children = (
 				0E8396FC21664CDE004BEA60 /* Login */,
+				0E81E4E921676D0200772274 /* Settings */,
 				0E8396FD21664E86004BEA60 /* TabBar */,
 				0EC323C021639C69004592BE /* LaunchScreen.storyboard */,
 			);
@@ -485,6 +580,7 @@
 				0E83970521664EF5004BEA60 /* Login.storyboard in Resources */,
 				0EC323C221639C69004592BE /* LaunchScreen.storyboard in Resources */,
 				0EC323BF21639C69004592BE /* Assets.xcassets in Resources */,
+				0E81E4F12167718400772274 /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,8 +640,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E81E4F5216771FB00772274 /* SettingsViewInput.swift in Sources */,
 				0E83973721665629004BEA60 /* TabBarRouter.swift in Sources */,
 				0E83972321665432004BEA60 /* LoginInitializer.swift in Sources */,
+				0E81E4F3216771C100772274 /* SettingsViewController.swift in Sources */,
 				0E83971921665379004BEA60 /* LoginInteractorOutput.swift in Sources */,
 				0E839721216653D3004BEA60 /* LoginPresenter.swift in Sources */,
 				0E83971121665193004BEA60 /* LoginViewInput.swift in Sources */,
@@ -553,6 +651,7 @@
 				0E83971521665215004BEA60 /* LoginRouterInput.swift in Sources */,
 				0E83973D21665667004BEA60 /* TabBarInteractor.swift in Sources */,
 				0E839713216651E1004BEA60 /* LoginViewOutput.swift in Sources */,
+				0E81E5072167746400772274 /* SettingsInitializer.swift in Sources */,
 				0E83971721665225004BEA60 /* LoginRouter.swift in Sources */,
 				0E81E4E52167557500772274 /* RootRouterImpl.swift in Sources */,
 				0E839747216658FD004BEA60 /* AppAssembly.swift in Sources */,
@@ -563,19 +662,28 @@
 				0E839741216657DE004BEA60 /* TabBarPresenter.swift in Sources */,
 				0E81E4E8216755E500772274 /* PresentationAssembly.swift in Sources */,
 				0E83971F216653C3004BEA60 /* LoginModuleInput.swift in Sources */,
+				0E81E4FF2167738B00772274 /* SettingsInteractorOutput.swift in Sources */,
 				0E83974F21666198004BEA60 /* RootRouter.swift in Sources */,
+				0E81E5012167739800772274 /* SettingsInteractor.swift in Sources */,
 				0E83971D216653A6004BEA60 /* LoginInteractor.swift in Sources */,
 				0E83973B21665656004BEA60 /* TabBarInteractorOutput.swift in Sources */,
 				0E8397452166584E004BEA60 /* TabBarConfigurator.swift in Sources */,
 				0E83970F2166517E004BEA60 /* LoginViewController.swift in Sources */,
+				0E81E4F92167734400772274 /* SettingsRouterInput.swift in Sources */,
 				0E839733216655F5004BEA60 /* TabBarViewOutput.swift in Sources */,
+				0E81E4FD2167737600772274 /* SettingsInteractorInput.swift in Sources */,
+				0E81E4FB2167735600772274 /* SettingsRouter.swift in Sources */,
+				0E81E509216774B900772274 /* SettingsConfigurator.swift in Sources */,
 				0EC323B821639C68004592BE /* AppDelegate.swift in Sources */,
 				0E839731216655E5004BEA60 /* TabBarViewInput.swift in Sources */,
 				0E83973921665649004BEA60 /* TabBarInteractorInput.swift in Sources */,
 				0E83973F216657CC004BEA60 /* TabBarModuleInput.swift in Sources */,
 				0E8397432166581E004BEA60 /* TabBarInitializer.swift in Sources */,
 				0E8397252166545A004BEA60 /* LoginConfigurator.swift in Sources */,
+				0E81E4F72167723500772274 /* SettingsViewOutput.swift in Sources */,
+				0E81E503216773B400772274 /* SettingsModuleInput.swift in Sources */,
 				0E83971B2166539B004BEA60 /* LoginInteractorInput.swift in Sources */,
+				0E81E505216773C300772274 /* SettingsPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
