@@ -16,8 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let r = AppAssembly.shared.assembler.resolver
-        let rootRouter = r.resolve(RootRouter.self)
-        rootRouter?.openRootScene()
+        let rootRouter = r.resolve(RootRouter.self)!
+        let loginService = r.resolve(LoginService.self)!
+        if !loginService.isLoggedIn {
+            rootRouter.openLogin()
+        }
         return true
     }
 

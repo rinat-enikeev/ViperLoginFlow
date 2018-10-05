@@ -22,6 +22,6 @@ extension SettingsPresenter: SettingsViewOutput {
 
 extension SettingsPresenter: SettingsInteractorOutput {
     func didLogout() {
-        router.openRootScene()
+        router.openLogin()
     }
 }

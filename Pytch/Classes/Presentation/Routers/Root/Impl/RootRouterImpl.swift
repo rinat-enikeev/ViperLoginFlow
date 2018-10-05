@@ -9,18 +9,12 @@
 import UIKit
 
 class RootRouterImpl: RootRouter {
-    var loginService: LoginService!
     
-    func openRootScene() {
+    func openLogin() {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let mainStoryboard = UIStoryboard(name: "Login", bundle: .main)
+        let rootController = mainStoryboard.instantiateInitialViewController()
         appDelegate.window = UIWindow(frame: UIScreen.main.bounds)
-        var mainStoryboard: UIStoryboard? = nil
-        if loginService.isLoggedIn {
-            mainStoryboard = UIStoryboard(name: "TabBar", bundle: .main)
-        } else {
-            mainStoryboard = UIStoryboard(name: "Login", bundle: .main)
-        }
-        let rootController = mainStoryboard!.instantiateInitialViewController()
         appDelegate.window?.rootViewController = rootController
         appDelegate.window?.makeKeyAndVisible()
     }

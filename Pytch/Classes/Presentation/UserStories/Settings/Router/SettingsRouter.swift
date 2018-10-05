@@ -12,7 +12,7 @@ class SettingsRouter: SettingsRouterInput {
     weak var transitionHandler: TransitionHandler!
     var rootRouter: RootRouter!
     
-    func openRootScene() {
-        rootRouter.openRootScene()
+    func openLogin() {
+        rootRouter.openLogin()
     }
 }

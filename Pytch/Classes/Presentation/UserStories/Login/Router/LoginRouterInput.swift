@@ -9,5 +9,5 @@
 import Foundation
 
 protocol LoginRouterInput {
-    func openRootScene()
+    func openTabBar()
 }

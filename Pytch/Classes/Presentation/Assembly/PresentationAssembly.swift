@@ -13,9 +13,7 @@ class PresentationAssembly: Assembly {
     func assemble(container: Container) {
         container.register(RootRouter.self) { r in
             let router = RootRouterImpl()
-            router.loginService = r.resolve(LoginService.self)
             return router
         }
     }
-    
 }

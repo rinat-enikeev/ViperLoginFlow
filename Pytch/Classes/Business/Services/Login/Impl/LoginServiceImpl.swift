@@ -9,7 +9,7 @@
 import Foundation
 
 class LoginServiceImpl: LoginService {
-    var isLoggedIn = false
+    var isLoggedIn = true
     
     func login() {
         isLoggedIn = true

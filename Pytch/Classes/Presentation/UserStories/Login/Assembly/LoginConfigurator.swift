@@ -16,7 +16,6 @@ class LoginConfigurator {
         
         let router = LoginRouter()
         router.transitionHandler = view
-        router.rootRouter = r.resolve(RootRouter.self)
         
         let presenter = LoginPresenter()
         presenter.view = view

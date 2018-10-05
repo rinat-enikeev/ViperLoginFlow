@@ -9,5 +9,5 @@
 import Foundation
 
 protocol RootRouter {
-    func openRootScene()
+    func openLogin()
 }

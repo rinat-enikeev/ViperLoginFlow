@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="xdP-AW-WPt">
             <objects>
-                <tabBarController id="es6-3I-cE2" customClass="TabBarViewController" customModule="Pytch" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarViewController" id="es6-3I-cE2" customClass="TabBarViewController" customModule="Pytch" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LUX-qc-JjZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

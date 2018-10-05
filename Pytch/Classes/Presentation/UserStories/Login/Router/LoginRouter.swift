@@ -8,11 +8,16 @@
 
 import LightRoute
 
+enum LoginSegue: String {
+    case tabBar = "ShowTabBarViewControllerSegueIdentifier"
+}
+
 class LoginRouter: LoginRouterInput {
     weak var transitionHandler: TransitionHandler!
-    var rootRouter: RootRouter!
     
-    func openRootScene() {
-        rootRouter.openRootScene()
+    func openTabBar() {
+        try! transitionHandler
+            .forSegue(identifier: LoginSegue.tabBar.rawValue, to: TabBarModuleInput.self)
+            .perform()
     }
 }

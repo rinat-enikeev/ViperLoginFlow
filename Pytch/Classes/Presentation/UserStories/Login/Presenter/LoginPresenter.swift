@@ -22,6 +22,6 @@ extension LoginPresenter: LoginViewOutput {
 
 extension LoginPresenter: LoginInteractorOutput {
     func didLogin() {
-        router.openRootScene()
+        router.openTabBar()
     }
 }
