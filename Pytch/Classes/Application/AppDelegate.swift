@@ -14,22 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        self.window = UIWindow(frame: UIScreen.main.bounds)
         let r = AppAssembly.shared.assembler.resolver
-        let loginService = r.resolve(LoginService.self)!
-        var mainStoryboard: UIStoryboard? = nil
-        if loginService.isLoggedIn {
-            mainStoryboard = UIStoryboard(name: "TabBar", bundle: .main)
-        } else {
-            mainStoryboard = UIStoryboard(name: "Login", bundle: .main)
-        }
-        let rootController = mainStoryboard!.instantiateInitialViewController()
-        self.window?.rootViewController = rootController
-        self.window?.makeKeyAndVisible()
-        
+        let rootRouter = r.resolve(RootRouter.self)
+        rootRouter?.openRootScene()
         return true
     }
 

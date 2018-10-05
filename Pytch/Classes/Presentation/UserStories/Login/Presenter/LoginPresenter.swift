@@ -15,7 +15,9 @@ class LoginPresenter: LoginModuleInput {
 }
 
 extension LoginPresenter: LoginViewOutput {
-    
+    func login() {
+        
+    }
 }
 
 extension LoginPresenter: LoginInteractorOutput {

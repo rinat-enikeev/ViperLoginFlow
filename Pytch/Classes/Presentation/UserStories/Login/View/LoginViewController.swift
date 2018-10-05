@@ -9,11 +9,18 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
     var output: LoginViewOutput!
-    
 }
 
+// MARK: - LoginViewInput
 extension LoginViewController: LoginViewInput {
     
 }
+
+// MARK: - IBActions
+extension LoginViewController {
+    @IBAction func loginButtonTouchUpInside(_ sender: Any) {
+        output.login()
+    }
+}
+

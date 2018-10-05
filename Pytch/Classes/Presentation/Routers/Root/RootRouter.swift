@@ -1,5 +1,5 @@
 //
-//  LoginViewOutput.swift
+//  RootRouter.swift
 //  Pytch
 //
 //  Created by Rinat Enikeev on 04/10/2018.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol LoginViewOutput {
-    
+protocol RootRouter {
+    func openRootScene()
 }
