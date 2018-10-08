@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E79F416216B4C1D00C772E1 /* Web.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E79F415216B4C1D00C772E1 /* Web.storyboard */; };
+		0E79F418216B4C3A00C772E1 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79F417216B4C3A00C772E1 /* WebViewController.swift */; };
+		0E79F41A216B4CDA00C772E1 /* WebViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79F419216B4CDA00C772E1 /* WebViewInput.swift */; };
+		0E79F41C216B4CE700C772E1 /* WebViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79F41B216B4CE700C772E1 /* WebViewOutput.swift */; };
+		0E79F41E216B4D2700C772E1 /* WebRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79F41D216B4D2700C772E1 /* WebRouterInput.swift */; };
+		0E79F420216B4D3800C772E1 /* WebRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79F41F216B4D3800C772E1 /* WebRouter.swift */; };
+		0E79F422216B4D6100C772E1 /* WebInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79F421216B4D6100C772E1 /* WebInteractorInput.swift */; };
+		0E79F424216B4D6E00C772E1 /* WebInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79F423216B4D6E00C772E1 /* WebInteractorOutput.swift */; };
+		0E79F426216B4D7A00C772E1 /* WebInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79F425216B4D7A00C772E1 /* WebInteractor.swift */; };
+		0E79F428216B4D9600C772E1 /* WebModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79F427216B4D9600C772E1 /* WebModuleInput.swift */; };
+		0E79F42A216B4DA700C772E1 /* WebPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79F429216B4DA700C772E1 /* WebPresenter.swift */; };
+		0E79F42C216B4DEE00C772E1 /* WebInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79F42B216B4DEE00C772E1 /* WebInitializer.swift */; };
+		0E79F42E216B4E2400C772E1 /* WebConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79F42D216B4E2400C772E1 /* WebConfigurator.swift */; };
 		0E81E4E52167557500772274 /* RootRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E4E42167557500772274 /* RootRouterImpl.swift */; };
 		0E81E4E8216755E500772274 /* PresentationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E4E7216755E500772274 /* PresentationAssembly.swift */; };
 		0E81E4F12167718400772274 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E81E4F02167718400772274 /* Settings.storyboard */; };
@@ -60,6 +73,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E79F415216B4C1D00C772E1 /* Web.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Web.storyboard; sourceTree = "<group>"; };
+		0E79F417216B4C3A00C772E1 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		0E79F419216B4CDA00C772E1 /* WebViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewInput.swift; sourceTree = "<group>"; };
+		0E79F41B216B4CE700C772E1 /* WebViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewOutput.swift; sourceTree = "<group>"; };
+		0E79F41D216B4D2700C772E1 /* WebRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRouterInput.swift; sourceTree = "<group>"; };
+		0E79F41F216B4D3800C772E1 /* WebRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRouter.swift; sourceTree = "<group>"; };
+		0E79F421216B4D6100C772E1 /* WebInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebInteractorInput.swift; sourceTree = "<group>"; };
+		0E79F423216B4D6E00C772E1 /* WebInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebInteractorOutput.swift; sourceTree = "<group>"; };
+		0E79F425216B4D7A00C772E1 /* WebInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebInteractor.swift; sourceTree = "<group>"; };
+		0E79F427216B4D9600C772E1 /* WebModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebModuleInput.swift; sourceTree = "<group>"; };
+		0E79F429216B4DA700C772E1 /* WebPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPresenter.swift; sourceTree = "<group>"; };
+		0E79F42B216B4DEE00C772E1 /* WebInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebInitializer.swift; sourceTree = "<group>"; };
+		0E79F42D216B4E2400C772E1 /* WebConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebConfigurator.swift; sourceTree = "<group>"; };
 		0E81E4E42167557500772274 /* RootRouterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouterImpl.swift; sourceTree = "<group>"; };
 		0E81E4E7216755E500772274 /* PresentationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationAssembly.swift; sourceTree = "<group>"; };
 		0E81E4F02167718400772274 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
@@ -128,6 +154,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E79F40E216B4BED00C772E1 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				0E79F414216B4C1200C772E1 /* Storyboard */,
+				0E79F413216B4C0D00C772E1 /* Assembly */,
+				0E79F412216B4C0800C772E1 /* Interactor */,
+				0E79F411216B4C0300C772E1 /* Presenter */,
+				0E79F410216B4BFD00C772E1 /* Router */,
+				0E79F40F216B4BF900C772E1 /* View */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		0E79F40F216B4BF900C772E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E79F419216B4CDA00C772E1 /* WebViewInput.swift */,
+				0E79F41B216B4CE700C772E1 /* WebViewOutput.swift */,
+				0E79F417216B4C3A00C772E1 /* WebViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E79F410216B4BFD00C772E1 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0E79F41D216B4D2700C772E1 /* WebRouterInput.swift */,
+				0E79F41F216B4D3800C772E1 /* WebRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0E79F411216B4C0300C772E1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0E79F427216B4D9600C772E1 /* WebModuleInput.swift */,
+				0E79F429216B4DA700C772E1 /* WebPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0E79F412216B4C0800C772E1 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0E79F421216B4D6100C772E1 /* WebInteractorInput.swift */,
+				0E79F423216B4D6E00C772E1 /* WebInteractorOutput.swift */,
+				0E79F425216B4D7A00C772E1 /* WebInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		0E79F413216B4C0D00C772E1 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				0E79F42B216B4DEE00C772E1 /* WebInitializer.swift */,
+				0E79F42D216B4E2400C772E1 /* WebConfigurator.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		0E79F414216B4C1200C772E1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0E79F415216B4C1D00C772E1 /* Web.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		0E81E4E6216755D400772274 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
@@ -388,6 +482,7 @@
 				0E8396FC21664CDE004BEA60 /* Login */,
 				0E81E4E921676D0200772274 /* Settings */,
 				0E8396FD21664E86004BEA60 /* TabBar */,
+				0E79F40E216B4BED00C772E1 /* Web */,
 				0EC323C021639C69004592BE /* LaunchScreen.storyboard */,
 			);
 			path = UserStories;
@@ -581,6 +676,7 @@
 				0EC323C221639C69004592BE /* LaunchScreen.storyboard in Resources */,
 				0EC323BF21639C69004592BE /* Assets.xcassets in Resources */,
 				0E81E4F12167718400772274 /* Settings.storyboard in Resources */,
+				0E79F416216B4C1D00C772E1 /* Web.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,6 +736,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E79F41A216B4CDA00C772E1 /* WebViewInput.swift in Sources */,
+				0E79F41C216B4CE700C772E1 /* WebViewOutput.swift in Sources */,
 				0E81E4F5216771FB00772274 /* SettingsViewInput.swift in Sources */,
 				0E83973721665629004BEA60 /* TabBarRouter.swift in Sources */,
 				0E83972321665432004BEA60 /* LoginInitializer.swift in Sources */,
@@ -652,25 +750,35 @@
 				0E83973D21665667004BEA60 /* TabBarInteractor.swift in Sources */,
 				0E839713216651E1004BEA60 /* LoginViewOutput.swift in Sources */,
 				0E81E5072167746400772274 /* SettingsInitializer.swift in Sources */,
+				0E79F41E216B4D2700C772E1 /* WebRouterInput.swift in Sources */,
+				0E79F42A216B4DA700C772E1 /* WebPresenter.swift in Sources */,
 				0E83971721665225004BEA60 /* LoginRouter.swift in Sources */,
+				0E79F42E216B4E2400C772E1 /* WebConfigurator.swift in Sources */,
 				0E81E4E52167557500772274 /* RootRouterImpl.swift in Sources */,
 				0E839747216658FD004BEA60 /* AppAssembly.swift in Sources */,
 				0E83972F21665591004BEA60 /* TabBarViewController.swift in Sources */,
+				0E79F426216B4D7A00C772E1 /* WebInteractor.swift in Sources */,
 				0E83974A216659A0004BEA60 /* BusinessAssembly.swift in Sources */,
 				0E83970A216650D8004BEA60 /* LoginService.swift in Sources */,
 				0E8397352166561B004BEA60 /* TabBarRouterInput.swift in Sources */,
 				0E839741216657DE004BEA60 /* TabBarPresenter.swift in Sources */,
 				0E81E4E8216755E500772274 /* PresentationAssembly.swift in Sources */,
+				0E79F420216B4D3800C772E1 /* WebRouter.swift in Sources */,
 				0E83971F216653C3004BEA60 /* LoginModuleInput.swift in Sources */,
+				0E79F424216B4D6E00C772E1 /* WebInteractorOutput.swift in Sources */,
 				0E81E4FF2167738B00772274 /* SettingsInteractorOutput.swift in Sources */,
 				0E83974F21666198004BEA60 /* RootRouter.swift in Sources */,
 				0E81E5012167739800772274 /* SettingsInteractor.swift in Sources */,
 				0E83971D216653A6004BEA60 /* LoginInteractor.swift in Sources */,
 				0E83973B21665656004BEA60 /* TabBarInteractorOutput.swift in Sources */,
 				0E8397452166584E004BEA60 /* TabBarConfigurator.swift in Sources */,
+				0E79F428216B4D9600C772E1 /* WebModuleInput.swift in Sources */,
+				0E79F418216B4C3A00C772E1 /* WebViewController.swift in Sources */,
+				0E79F42C216B4DEE00C772E1 /* WebInitializer.swift in Sources */,
 				0E83970F2166517E004BEA60 /* LoginViewController.swift in Sources */,
 				0E81E4F92167734400772274 /* SettingsRouterInput.swift in Sources */,
 				0E839733216655F5004BEA60 /* TabBarViewOutput.swift in Sources */,
+				0E79F422216B4D6100C772E1 /* WebInteractorInput.swift in Sources */,
 				0E81E4FD2167737600772274 /* SettingsInteractorInput.swift in Sources */,
 				0E81E4FB2167735600772274 /* SettingsRouter.swift in Sources */,
 				0E81E509216774B900772274 /* SettingsConfigurator.swift in Sources */,
