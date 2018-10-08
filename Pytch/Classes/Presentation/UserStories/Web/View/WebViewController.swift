@@ -13,7 +13,12 @@ class WebViewController: UIViewController {
 
     var output: WebViewOutput!
     
-    @IBOutlet weak var webView: WKWebView!
+    var webView: WKWebView!
+    
+    override func loadView() {
+        webView = WKWebView()
+        view = webView
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -20,6 +20,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="hMK-fr-nYk" kind="relationship" relationship="viewControllers" id="UTR-Nh-u40"/>
+                        <segue destination="W9B-4f-8sD" kind="relationship" relationship="viewControllers" id="4Xx-de-oHf"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iqX-gp-q0h" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -39,7 +40,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="egl-2T-cyy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-631" y="270"/>
+            <point key="canvasLocation" x="-793" y="270"/>
+        </scene>
+        <!--WebViewController-->
+        <scene sceneID="wrO-VB-PPK">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Web" referencedIdentifier="WebViewController" id="W9B-4f-8sD" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Web" id="WOL-eP-xAk"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fb7-ac-syL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-450" y="270"/>
         </scene>
     </scenes>
 </document>
