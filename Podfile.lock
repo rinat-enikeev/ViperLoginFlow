@@ -1,14 +1,8 @@
 PODS:
   - LightRoute (2.1.20)
-  - Swinject (2.4.1)
 
 DEPENDENCIES:
   - LightRoute (from `https://github.com/SpectralDragon/LightRoute`)
-  - Swinject
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - Swinject
 
 EXTERNAL SOURCES:
   LightRoute:
@@ -21,8 +15,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   LightRoute: aa65803a1d984be3be83651b433699077bfe6ab3
-  Swinject: f7f15a9672e99328c1f07f277091087917215700
 
-PODFILE CHECKSUM: e855ea46b9e2756cf3ade5e825a54ad212c85173
+PODFILE CHECKSUM: 959639e226076442541ef1bf739ed44c072ce1bf
 
 COCOAPODS: 1.5.3

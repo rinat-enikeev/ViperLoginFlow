@@ -10,6 +10,8 @@ import UIKit
 
 class RootRouterImpl: RootRouter {
     
+    static let shared = RootRouterImpl()
+    
     func openLogin() {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         let storyboard = UIStoryboard(name: "Login", bundle: .main)

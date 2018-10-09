@@ -6,13 +6,11 @@
 //  Copyright © 2018 Aparlay Limited. All rights reserved.
 //
 
-import Swinject
+import Foundation
 
 class LoginConfigurator {
     
     func configure(view: LoginViewController) {
-        
-        let r = AppAssembly.shared.assembler.resolver
         
         let router = LoginRouter()
         router.transitionHandler = view
@@ -23,7 +21,7 @@ class LoginConfigurator {
         
         let interactor = LoginInteractor()
         interactor.output = presenter
-        interactor.loginService = r.resolve(LoginService.self)
+        interactor.loginService = LoginServiceImpl.shared
         
         presenter.interactor = interactor
         

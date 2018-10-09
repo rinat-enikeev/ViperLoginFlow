@@ -3,5 +3,4 @@ use_frameworks!
 
 target 'Pytch' do
   pod 'LightRoute', :git => 'https://github.com/SpectralDragon/LightRoute'
-  pod 'Swinject'
 end

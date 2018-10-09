@@ -9,6 +9,9 @@
 import Foundation
 
 class LoginServiceImpl: LoginService {
+    
+    static let shared = LoginServiceImpl()
+    
     var isLoggedIn = false
     
     func login() {

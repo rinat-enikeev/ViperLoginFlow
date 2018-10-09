@@ -21,7 +21,6 @@
 		0E79F42C216B4DEE00C772E1 /* WebInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79F42B216B4DEE00C772E1 /* WebInitializer.swift */; };
 		0E79F42E216B4E2400C772E1 /* WebConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79F42D216B4E2400C772E1 /* WebConfigurator.swift */; };
 		0E81E4E52167557500772274 /* RootRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E4E42167557500772274 /* RootRouterImpl.swift */; };
-		0E81E4E8216755E500772274 /* PresentationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E4E7216755E500772274 /* PresentationAssembly.swift */; };
 		0E81E4F12167718400772274 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E81E4F02167718400772274 /* Settings.storyboard */; };
 		0E81E4F3216771C100772274 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E4F2216771C100772274 /* SettingsViewController.swift */; };
 		0E81E4F5216771FB00772274 /* SettingsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E4F4216771FB00772274 /* SettingsViewInput.swift */; };
@@ -63,8 +62,6 @@
 		0E839741216657DE004BEA60 /* TabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E839740216657DE004BEA60 /* TabBarPresenter.swift */; };
 		0E8397432166581E004BEA60 /* TabBarInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8397422166581E004BEA60 /* TabBarInitializer.swift */; };
 		0E8397452166584E004BEA60 /* TabBarConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8397442166584E004BEA60 /* TabBarConfigurator.swift */; };
-		0E839747216658FD004BEA60 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E839746216658FD004BEA60 /* AppAssembly.swift */; };
-		0E83974A216659A0004BEA60 /* BusinessAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E839749216659A0004BEA60 /* BusinessAssembly.swift */; };
 		0E83974F21666198004BEA60 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E83974E21666198004BEA60 /* RootRouter.swift */; };
 		0EC323B821639C68004592BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC323B721639C68004592BE /* AppDelegate.swift */; };
 		0EC323BF21639C69004592BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC323BE21639C69004592BE /* Assets.xcassets */; };
@@ -87,7 +84,6 @@
 		0E79F42B216B4DEE00C772E1 /* WebInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebInitializer.swift; sourceTree = "<group>"; };
 		0E79F42D216B4E2400C772E1 /* WebConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebConfigurator.swift; sourceTree = "<group>"; };
 		0E81E4E42167557500772274 /* RootRouterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouterImpl.swift; sourceTree = "<group>"; };
-		0E81E4E7216755E500772274 /* PresentationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationAssembly.swift; sourceTree = "<group>"; };
 		0E81E4F02167718400772274 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		0E81E4F2216771C100772274 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0E81E4F4216771FB00772274 /* SettingsViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewInput.swift; sourceTree = "<group>"; };
@@ -129,8 +125,6 @@
 		0E839740216657DE004BEA60 /* TabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPresenter.swift; sourceTree = "<group>"; };
 		0E8397422166581E004BEA60 /* TabBarInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarInitializer.swift; sourceTree = "<group>"; };
 		0E8397442166584E004BEA60 /* TabBarConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarConfigurator.swift; sourceTree = "<group>"; };
-		0E839746216658FD004BEA60 /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
-		0E839749216659A0004BEA60 /* BusinessAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessAssembly.swift; sourceTree = "<group>"; };
 		0E83974E21666198004BEA60 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
 		0EC323B421639C68004592BE /* Pytch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pytch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC323B721639C68004592BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -220,14 +214,6 @@
 				0E79F415216B4C1D00C772E1 /* Web.storyboard */,
 			);
 			path = Storyboard;
-			sourceTree = "<group>";
-		};
-		0E81E4E6216755D400772274 /* Assembly */ = {
-			isa = PBXGroup;
-			children = (
-				0E81E4E7216755E500772274 /* PresentationAssembly.swift */,
-			);
-			path = Assembly;
 			sourceTree = "<group>";
 		};
 		0E81E4E921676D0200772274 /* Settings */ = {
@@ -382,7 +368,6 @@
 		0E83970621665055004BEA60 /* Business */ = {
 			isa = PBXGroup;
 			children = (
-				0E83974821665990004BEA60 /* Assembly */,
 				0E839707216650BC004BEA60 /* Services */,
 			);
 			path = Business;
@@ -468,14 +453,6 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
-		0E83974821665990004BEA60 /* Assembly */ = {
-			isa = PBXGroup;
-			children = (
-				0E839749216659A0004BEA60 /* BusinessAssembly.swift */,
-			);
-			path = Assembly;
-			sourceTree = "<group>";
-		};
 		0E83974B216660FB004BEA60 /* UserStories */ = {
 			isa = PBXGroup;
 			children = (
@@ -544,7 +521,6 @@
 			isa = PBXGroup;
 			children = (
 				0EC323B721639C68004592BE /* AppDelegate.swift */,
-				0E839746216658FD004BEA60 /* AppAssembly.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -552,7 +528,6 @@
 		0EC323CA2163B87D004592BE /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				0E81E4E6216755D400772274 /* Assembly */,
 				0E83974C21666180004BEA60 /* Routers */,
 				0E83974B216660FB004BEA60 /* UserStories */,
 			);
@@ -693,14 +668,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Pytch/Pods-Pytch-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LightRoute/LightRoute.framework",
-				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LightRoute.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -755,14 +728,11 @@
 				0E83971721665225004BEA60 /* LoginRouter.swift in Sources */,
 				0E79F42E216B4E2400C772E1 /* WebConfigurator.swift in Sources */,
 				0E81E4E52167557500772274 /* RootRouterImpl.swift in Sources */,
-				0E839747216658FD004BEA60 /* AppAssembly.swift in Sources */,
 				0E83972F21665591004BEA60 /* TabBarViewController.swift in Sources */,
 				0E79F426216B4D7A00C772E1 /* WebInteractor.swift in Sources */,
-				0E83974A216659A0004BEA60 /* BusinessAssembly.swift in Sources */,
 				0E83970A216650D8004BEA60 /* LoginService.swift in Sources */,
 				0E8397352166561B004BEA60 /* TabBarRouterInput.swift in Sources */,
 				0E839741216657DE004BEA60 /* TabBarPresenter.swift in Sources */,
-				0E81E4E8216755E500772274 /* PresentationAssembly.swift in Sources */,
 				0E79F420216B4D3800C772E1 /* WebRouter.swift in Sources */,
 				0E83971F216653C3004BEA60 /* LoginModuleInput.swift in Sources */,
 				0E79F424216B4D6E00C772E1 /* WebInteractorOutput.swift in Sources */,
