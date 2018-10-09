@@ -1,21 +1,3 @@
-PODS:
-  - LightRoute (2.1.20)
-
-DEPENDENCIES:
-  - LightRoute (from `https://github.com/SpectralDragon/LightRoute`)
-
-EXTERNAL SOURCES:
-  LightRoute:
-    :git: https://github.com/SpectralDragon/LightRoute
-
-CHECKOUT OPTIONS:
-  LightRoute:
-    :commit: c537a7afacc290504bc73c4a893957a4e1932fb7
-    :git: https://github.com/SpectralDragon/LightRoute
-
-SPEC CHECKSUMS:
-  LightRoute: aa65803a1d984be3be83651b433699077bfe6ab3
-
-PODFILE CHECKSUM: 959639e226076442541ef1bf739ed44c072ce1bf
+PODFILE CHECKSUM: 44e62af7e9f9b1ce700af55fa1d445347f153fd9
 
 COCOAPODS: 1.5.3

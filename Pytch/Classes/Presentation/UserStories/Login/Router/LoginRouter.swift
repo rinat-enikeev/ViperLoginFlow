@@ -6,18 +6,16 @@
 //  Copyright © 2018 Aparlay Limited. All rights reserved.
 //
 
-import LightRoute
+import UIKit
 
 enum LoginSegue: String {
     case tabBar = "ShowTabBarViewControllerSegueIdentifier"
 }
 
 class LoginRouter: LoginRouterInput {
-    weak var transitionHandler: TransitionHandler!
+    weak var transitionHandler: UIViewController!
     
     func openTabBar() {
-        try! transitionHandler
-            .forSegue(identifier: LoginSegue.tabBar.rawValue, to: TabBarModuleInput.self)
-            .perform()
+        transitionHandler.performSegue(withIdentifier: LoginSegue.tabBar.rawValue, sender: nil)
     }
 }

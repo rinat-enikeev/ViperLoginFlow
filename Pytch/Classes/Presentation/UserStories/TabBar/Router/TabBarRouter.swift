@@ -6,8 +6,8 @@
 //  Copyright © 2018 Aparlay Limited. All rights reserved.
 //
 
-import LightRoute
+import UIKit
 
 class TabBarRouter: TabBarRouterInput {
-    weak var transitionHandler: TransitionHandler!
+    weak var transitionHandler: UIViewController!
 }

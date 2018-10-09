@@ -7,87 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05F622A13EB5BB2E93F59FF3672CE475 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		07A611CAE3E614BC9390BCF91C53E511 /* Pods-Pytch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE97C55A19127827649FE4EDCCEAC37 /* Pods-Pytch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24698ECF8466102E7B3260F0103852CF /* ViewContainerForEmbedSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64451F740B90F07A5DEBDFD3DAA32BFE /* ViewContainerForEmbedSegue.swift */; };
-		54B67EF4262C7AC771BB3652474BA9EE /* SegueTransitionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07824216722238096CC366C1CB8BB2FE /* SegueTransitionNode.swift */; };
-		6672BA4A412AB7B0322C0685BA7325B0 /* LightRouteErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B8640E38AB4AF5631328E5E15A1B9 /* LightRouteErrors.swift */; };
-		7681234F944559BEF8D76D0BED619CEA /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C572356536CE737D144132615A0FD294 /* UIViewController+Extension.swift */; };
-		8C8230103B70744ACC7F66FCC759CC06 /* LightRoute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D495DE20AA320FBA0F107F702E2EC83 /* LightRoute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FAD96054435944D272FFD61BBFF8C6A /* TransitionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA107F03B84F49DA7840A5DF6136191 /* TransitionNode.swift */; };
-		B1A91512D7D496CEE7E11B541A42CFDD /* CustomTransitionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D20119BCE1FAA10C15F80CEB316BA87 /* CustomTransitionNode.swift */; };
-		B5961C58A5846EC807A3141A4AA39920 /* TransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AB3CE208068BF60A80ED62388B928E /* TransitionHandler.swift */; };
-		B7C3CB13FB215F8113BB55FAB1B2748F /* LightRoute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6389E3852A91B1107CFB8F42E6139914 /* LightRoute-dummy.m */; };
-		BA7D448946FB58E78A84142459CBC341 /* StoryboardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554DBBF4AE5A541028DEA87260FE6C7F /* StoryboardFactory.swift */; };
-		C498848845FD974E10D9994E371EC8CB /* Pods-Pytch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1207E80EE9D71E9179C0F912054A5A31 /* Pods-Pytch-dummy.m */; };
-		CE5318F1E016C72257D7AF5322F11287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		CEF0D1B3DD578181200AB9D1790EC2BB /* LightRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A7B1EA7D3725E1F7A960D1C5D187A1 /* LightRoute.swift */; };
-		D71647B3E015BB85EAFE04E120AA830F /* CloseTransitionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E9EF192789C309E1543EE96A3D6658 /* CloseTransitionNode.swift */; };
-		DE57C25373DEC8AC609A013570718F44 /* StoryboardFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F63839EBB058CC5598CB5CAC36AEC7F /* StoryboardFactoryProtocol.swift */; };
-		FBFE080D58C57DBAB477ED40D72C144D /* GenericTransitionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7A02284DEC00E3C47A742A912BD60 /* GenericTransitionNode.swift */; };
-		FEB836FEE4055DC0B3FB45ADB3FCF718 /* EmbedSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF873681E3205592FD0CB4A39CE4F27 /* EmbedSegue.swift */; };
+		2D4F1A51C8AC735942160964E0697C74 /* Pods-Pytch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1207E80EE9D71E9179C0F912054A5A31 /* Pods-Pytch-dummy.m */; };
+		BF99848905DBCE39FC74A4E6B9877782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		CC51E96AEB4306162B757D51EF5520D8 /* Pods-Pytch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE97C55A19127827649FE4EDCCEAC37 /* Pods-Pytch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8319107499E3DA176BA638962FE96F31 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 81B306DE93BCB67E1749E2700FEC09F5;
-			remoteInfo = LightRoute;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		07824216722238096CC366C1CB8BB2FE /* SegueTransitionNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegueTransitionNode.swift; path = Sources/TransitionNodes/SegueTransitionNode.swift; sourceTree = "<group>"; };
+		0FED97FCD21F194E06E0B6B1B1CF8103 /* Pods_Pytch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Pytch.framework; path = "Pods-Pytch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DA060E68077D09A6CEC2465B4304D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11F184E287C247747A27AC38CD3B448B /* LightRoute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LightRoute.modulemap; sourceTree = "<group>"; };
 		1207E80EE9D71E9179C0F912054A5A31 /* Pods-Pytch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pytch-dummy.m"; sourceTree = "<group>"; };
 		1EE8B827A2B9B983EC6D14E6CD612231 /* Pods-Pytch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pytch.debug.xcconfig"; sourceTree = "<group>"; };
-		28A7B1EA7D3725E1F7A960D1C5D187A1 /* LightRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LightRoute.swift; path = Sources/LightRoute.swift; sourceTree = "<group>"; };
-		2D495DE20AA320FBA0F107F702E2EC83 /* LightRoute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LightRoute-umbrella.h"; sourceTree = "<group>"; };
 		2DBB00D2832AB2415ECC1F2F50702E0E /* Pods-Pytch-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pytch-resources.sh"; sourceTree = "<group>"; };
-		2F63839EBB058CC5598CB5CAC36AEC7F /* StoryboardFactoryProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardFactoryProtocol.swift; path = Sources/Protocols/StoryboardFactoryProtocol.swift; sourceTree = "<group>"; };
-		4AA7A02284DEC00E3C47A742A912BD60 /* GenericTransitionNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericTransitionNode.swift; path = Sources/TransitionNodes/GenericTransitionNode.swift; sourceTree = "<group>"; };
-		4EA107F03B84F49DA7840A5DF6136191 /* TransitionNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionNode.swift; path = Sources/TransitionNodes/TransitionNode.swift; sourceTree = "<group>"; };
-		554DBBF4AE5A541028DEA87260FE6C7F /* StoryboardFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardFactory.swift; path = Sources/StoryboardFactory.swift; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6389E3852A91B1107CFB8F42E6139914 /* LightRoute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LightRoute-dummy.m"; sourceTree = "<group>"; };
-		64451F740B90F07A5DEBDFD3DAA32BFE /* ViewContainerForEmbedSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewContainerForEmbedSegue.swift; path = Sources/Protocols/ViewContainerForEmbedSegue.swift; sourceTree = "<group>"; };
 		65082307F0FCDB1288C8C01832F29E2B /* Pods-Pytch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pytch.release.xcconfig"; sourceTree = "<group>"; };
 		80894FB3096F713FC22DEA4DAC42D802 /* Pods-Pytch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pytch.modulemap"; sourceTree = "<group>"; };
-		83AB3CE208068BF60A80ED62388B928E /* TransitionHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionHandler.swift; path = Sources/Protocols/TransitionHandler.swift; sourceTree = "<group>"; };
 		863E8DD6FA58D81E07FB5F85F17B598F /* Pods-Pytch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pytch-frameworks.sh"; sourceTree = "<group>"; };
-		8D20119BCE1FAA10C15F80CEB316BA87 /* CustomTransitionNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTransitionNode.swift; path = Sources/TransitionNodes/CustomTransitionNode.swift; sourceTree = "<group>"; };
 		8E16A791C7DA062C058E3C77C6ADCD39 /* Pods-Pytch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pytch-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D0C4A8D36F0C9699326BCA0135A576A /* Pods_Pytch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Pytch.framework; path = "Pods-Pytch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE97C55A19127827649FE4EDCCEAC37 /* Pods-Pytch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pytch-umbrella.h"; sourceTree = "<group>"; };
-		A052BAD9E28D102987E339F8B5FAE1EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A14BE30D6E26F3511B3DACE73FCCEA6F /* LightRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LightRoute.framework; path = LightRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4E9EF192789C309E1543EE96A3D6658 /* CloseTransitionNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CloseTransitionNode.swift; path = Sources/TransitionNodes/CloseTransitionNode.swift; sourceTree = "<group>"; };
-		AF20D1C7036A3162B9DFF8C0C9A7400F /* LightRoute.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LightRoute.xcconfig; sourceTree = "<group>"; };
-		C572356536CE737D144132615A0FD294 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extension.swift"; path = "Sources/UIViewController+Extension.swift"; sourceTree = "<group>"; };
-		CD7B8640E38AB4AF5631328E5E15A1B9 /* LightRouteErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LightRouteErrors.swift; path = Sources/LightRouteErrors.swift; sourceTree = "<group>"; };
 		CDF3831F73BC0C0E60BB7826BCDD1E2F /* Pods-Pytch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pytch-acknowledgements.plist"; sourceTree = "<group>"; };
-		E78E3EDC9581B7461ADFE62C8E2C00AC /* LightRoute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LightRoute-prefix.pch"; sourceTree = "<group>"; };
-		ECF873681E3205592FD0CB4A39CE4F27 /* EmbedSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmbedSegue.swift; path = Sources/EmbedSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C9B0596B4CA49BACEA8C43CBEFD8BF98 /* Frameworks */ = {
+		25B3A8F2957B9CA6CC24D1B9CDC13467 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05F622A13EB5BB2E93F59FF3672CE475 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3290061366BA6536B332ED89D5DA527 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE5318F1E016C72257D7AF5322F11287 /* Foundation.framework in Frameworks */,
+				BF99848905DBCE39FC74A4E6B9877782 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +46,14 @@
 				A3F7FD087BC7A26B9B133AC70F20984F /* Pods-Pytch */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0E87879F02A8D90E1E019A89FC2CEDAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FED97FCD21F194E06E0B6B1B1CF8103 /* Pods_Pytch.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -115,32 +69,9 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8BD54E585E060EB0682B80730228931B /* Pods */,
-				E5499D47A6D6318F0CFC75D4FE8DF380 /* Products */,
+				0E87879F02A8D90E1E019A89FC2CEDAC /* Products */,
 				0214F5E6D6175A18B029B711DFA2B14F /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8BD54E585E060EB0682B80730228931B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FE0F1615309BDA3B5A5D689F2B686A75 /* LightRoute */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		922B2985499ED384B76C3FCB46E9F185 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A052BAD9E28D102987E339F8B5FAE1EC /* Info.plist */,
-				11F184E287C247747A27AC38CD3B448B /* LightRoute.modulemap */,
-				AF20D1C7036A3162B9DFF8C0C9A7400F /* LightRoute.xcconfig */,
-				6389E3852A91B1107CFB8F42E6139914 /* LightRoute-dummy.m */,
-				E78E3EDC9581B7461ADFE62C8E2C00AC /* LightRoute-prefix.pch */,
-				2D495DE20AA320FBA0F107F702E2EC83 /* LightRoute-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/LightRoute";
 			sourceTree = "<group>";
 		};
 		A3F7FD087BC7A26B9B133AC70F20984F /* Pods-Pytch */ = {
@@ -169,94 +100,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E5499D47A6D6318F0CFC75D4FE8DF380 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A14BE30D6E26F3511B3DACE73FCCEA6F /* LightRoute.framework */,
-				9D0C4A8D36F0C9699326BCA0135A576A /* Pods_Pytch.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FE0F1615309BDA3B5A5D689F2B686A75 /* LightRoute */ = {
-			isa = PBXGroup;
-			children = (
-				A4E9EF192789C309E1543EE96A3D6658 /* CloseTransitionNode.swift */,
-				8D20119BCE1FAA10C15F80CEB316BA87 /* CustomTransitionNode.swift */,
-				ECF873681E3205592FD0CB4A39CE4F27 /* EmbedSegue.swift */,
-				4AA7A02284DEC00E3C47A742A912BD60 /* GenericTransitionNode.swift */,
-				28A7B1EA7D3725E1F7A960D1C5D187A1 /* LightRoute.swift */,
-				CD7B8640E38AB4AF5631328E5E15A1B9 /* LightRouteErrors.swift */,
-				07824216722238096CC366C1CB8BB2FE /* SegueTransitionNode.swift */,
-				554DBBF4AE5A541028DEA87260FE6C7F /* StoryboardFactory.swift */,
-				2F63839EBB058CC5598CB5CAC36AEC7F /* StoryboardFactoryProtocol.swift */,
-				83AB3CE208068BF60A80ED62388B928E /* TransitionHandler.swift */,
-				4EA107F03B84F49DA7840A5DF6136191 /* TransitionNode.swift */,
-				C572356536CE737D144132615A0FD294 /* UIViewController+Extension.swift */,
-				64451F740B90F07A5DEBDFD3DAA32BFE /* ViewContainerForEmbedSegue.swift */,
-				922B2985499ED384B76C3FCB46E9F185 /* Support Files */,
-			);
-			name = LightRoute;
-			path = LightRoute;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E3D6402F03829F5C9513901CA022A617 /* Headers */ = {
+		054D1D5D1F7A03233CF4C80129175A19 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C8230103B70744ACC7F66FCC759CC06 /* LightRoute-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FEAE88F39B1C74E1064BA7E224ACF646 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				07A611CAE3E614BC9390BCF91C53E511 /* Pods-Pytch-umbrella.h in Headers */,
+				CC51E96AEB4306162B757D51EF5520D8 /* Pods-Pytch-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		81B306DE93BCB67E1749E2700FEC09F5 /* LightRoute */ = {
+		41A27E044B7AFD1BE9A9D55CD3E03649 /* Pods-Pytch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DBFD7EE6B1514374D929650A0548E671 /* Build configuration list for PBXNativeTarget "LightRoute" */;
+			buildConfigurationList = 6343EBD5EBCA7007536B8394E7895F12 /* Build configuration list for PBXNativeTarget "Pods-Pytch" */;
 			buildPhases = (
-				E3D6402F03829F5C9513901CA022A617 /* Headers */,
-				B3CC2A4D5B042A7826ADB32BE7F761D6 /* Sources */,
-				C9B0596B4CA49BACEA8C43CBEFD8BF98 /* Frameworks */,
-				9AAD31FCE0179267CBA30E5104427873 /* Resources */,
+				054D1D5D1F7A03233CF4C80129175A19 /* Headers */,
+				94001A6EA8E2A3317345E81BBB2758B1 /* Sources */,
+				25B3A8F2957B9CA6CC24D1B9CDC13467 /* Frameworks */,
+				9FBFF2282F3477BF6DCFA1F545842D1C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = LightRoute;
-			productName = LightRoute;
-			productReference = A14BE30D6E26F3511B3DACE73FCCEA6F /* LightRoute.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AAEA9C009AEDF36AF30006206AC2FC24 /* Pods-Pytch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB0D72C149F9DADD6E2F64DF41E55F79 /* Build configuration list for PBXNativeTarget "Pods-Pytch" */;
-			buildPhases = (
-				FEAE88F39B1C74E1064BA7E224ACF646 /* Headers */,
-				BFDD8D7FBB33C126D7E5E2CD3B0C3F7A /* Sources */,
-				F3290061366BA6536B332ED89D5DA527 /* Frameworks */,
-				B13688C436D7919B597BDE90340C3A9B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				09D7BAC682D72A62D1B86DD41A41D59A /* PBXTargetDependency */,
 			);
 			name = "Pods-Pytch";
 			productName = "Pods-Pytch";
-			productReference = 9D0C4A8D36F0C9699326BCA0135A576A /* Pods_Pytch.framework */;
+			productReference = 0FED97FCD21F194E06E0B6B1B1CF8103 /* Pods_Pytch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -276,25 +149,17 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E5499D47A6D6318F0CFC75D4FE8DF380 /* Products */;
+			productRefGroup = 0E87879F02A8D90E1E019A89FC2CEDAC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81B306DE93BCB67E1749E2700FEC09F5 /* LightRoute */,
-				AAEA9C009AEDF36AF30006206AC2FC24 /* Pods-Pytch */,
+				41A27E044B7AFD1BE9A9D55CD3E03649 /* Pods-Pytch */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9AAD31FCE0179267CBA30E5104427873 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B13688C436D7919B597BDE90340C3A9B /* Resources */ = {
+		9FBFF2282F3477BF6DCFA1F545842D1C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,48 +169,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B3CC2A4D5B042A7826ADB32BE7F761D6 /* Sources */ = {
+		94001A6EA8E2A3317345E81BBB2758B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D71647B3E015BB85EAFE04E120AA830F /* CloseTransitionNode.swift in Sources */,
-				B1A91512D7D496CEE7E11B541A42CFDD /* CustomTransitionNode.swift in Sources */,
-				FEB836FEE4055DC0B3FB45ADB3FCF718 /* EmbedSegue.swift in Sources */,
-				FBFE080D58C57DBAB477ED40D72C144D /* GenericTransitionNode.swift in Sources */,
-				B7C3CB13FB215F8113BB55FAB1B2748F /* LightRoute-dummy.m in Sources */,
-				CEF0D1B3DD578181200AB9D1790EC2BB /* LightRoute.swift in Sources */,
-				6672BA4A412AB7B0322C0685BA7325B0 /* LightRouteErrors.swift in Sources */,
-				54B67EF4262C7AC771BB3652474BA9EE /* SegueTransitionNode.swift in Sources */,
-				BA7D448946FB58E78A84142459CBC341 /* StoryboardFactory.swift in Sources */,
-				DE57C25373DEC8AC609A013570718F44 /* StoryboardFactoryProtocol.swift in Sources */,
-				B5961C58A5846EC807A3141A4AA39920 /* TransitionHandler.swift in Sources */,
-				9FAD96054435944D272FFD61BBFF8C6A /* TransitionNode.swift in Sources */,
-				7681234F944559BEF8D76D0BED619CEA /* UIViewController+Extension.swift in Sources */,
-				24698ECF8466102E7B3260F0103852CF /* ViewContainerForEmbedSegue.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFDD8D7FBB33C126D7E5E2CD3B0C3F7A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C498848845FD974E10D9994E371EC8CB /* Pods-Pytch-dummy.m in Sources */,
+				2D4F1A51C8AC735942160964E0697C74 /* Pods-Pytch-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		09D7BAC682D72A62D1B86DD41A41D59A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LightRoute;
-			target = 81B306DE93BCB67E1749E2700FEC09F5 /* LightRoute */;
-			targetProxy = 8319107499E3DA176BA638962FE96F31 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		131675FAE3AA41BC462046B162A60652 /* Debug */ = {
+		5F5F74227853FB95D9C3BD4AB1B131D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1EE8B827A2B9B983EC6D14E6CD612231 /* Pods-Pytch.debug.xcconfig */;
 			buildSettings = {
@@ -376,53 +211,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		39195D25A9999ECB6751867E955EC288 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65082307F0FCDB1288C8C01832F29E2B /* Pods-Pytch.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Pytch/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Pytch/Pods-Pytch.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -488,10 +281,11 @@
 			};
 			name = Debug;
 		};
-		7C468C46880A8715567AFC455C0F1BF9 /* Debug */ = {
+		8529A6D4089DCAEBE63D8A4F511804F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF20D1C7036A3162B9DFF8C0C9A7400F /* LightRoute.xcconfig */;
+			baseConfigurationReference = 65082307F0FCDB1288C8C01832F29E2B /* Pods-Pytch.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -501,60 +295,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LightRoute/LightRoute-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LightRoute/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pytch/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/LightRoute/LightRoute.modulemap";
-				PRODUCT_MODULE_NAME = LightRoute;
-				PRODUCT_NAME = LightRoute;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pytch/Pods-Pytch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9AFF4225EDAF5DDAEB470C269CA3B20C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF20D1C7036A3162B9DFF8C0C9A7400F /* LightRoute.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LightRoute/LightRoute-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LightRoute/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/LightRoute/LightRoute.modulemap";
-				PRODUCT_MODULE_NAME = LightRoute;
-				PRODUCT_NAME = LightRoute;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -633,20 +390,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB0D72C149F9DADD6E2F64DF41E55F79 /* Build configuration list for PBXNativeTarget "Pods-Pytch" */ = {
+		6343EBD5EBCA7007536B8394E7895F12 /* Build configuration list for PBXNativeTarget "Pods-Pytch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				131675FAE3AA41BC462046B162A60652 /* Debug */,
-				39195D25A9999ECB6751867E955EC288 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DBFD7EE6B1514374D929650A0548E671 /* Build configuration list for PBXNativeTarget "LightRoute" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7C468C46880A8715567AFC455C0F1BF9 /* Debug */,
-				9AFF4225EDAF5DDAEB470C269CA3B20C /* Release */,
+				5F5F74227853FB95D9C3BD4AB1B131D3 /* Debug */,
+				8529A6D4089DCAEBE63D8A4F511804F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -6,10 +6,10 @@
 //  Copyright © 2018 Aparlay Limited. All rights reserved.
 //
 
-import LightRoute
+import UIKit
 
 class SettingsRouter: SettingsRouterInput {
-    weak var transitionHandler: TransitionHandler!
+    weak var transitionHandler: UIViewController!
     var rootRouter: RootRouter!
     
     func openLogin() {

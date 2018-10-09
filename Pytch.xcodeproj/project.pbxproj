@@ -597,7 +597,6 @@
 				0EC323B021639C68004592BE /* Sources */,
 				0EC323B121639C68004592BE /* Frameworks */,
 				0EC323B221639C68004592BE /* Resources */,
-				6AC3C31C54A26DC788E384F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -658,28 +657,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6AC3C31C54A26DC788E384F9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Pytch/Pods-Pytch-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LightRoute/LightRoute.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LightRoute.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pytch/Pods-Pytch-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F61C1B44D8A0A6432D4240D0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
