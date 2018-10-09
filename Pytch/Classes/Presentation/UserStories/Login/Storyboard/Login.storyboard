@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="LKp-4w-Y36">
             <objects>
-                <viewController id="OUE-UB-7vV" customClass="LoginViewController" customModule="Pytch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="OUE-UB-7vV" customClass="LoginViewController" customModule="Pytch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UoT-1M-Sqc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
