@@ -19,7 +19,6 @@ class RootRouterImpl: RootRouter {
         previousRootViewController = appDelegate.window?.rootViewController
         let storyboard = UIStoryboard(name: "Login", bundle: .main)
         let rootController = storyboard.instantiateInitialViewController()
-        appDelegate.window = UIWindow(frame: UIScreen.main.bounds)
         appDelegate.window?.rootViewController = rootController
         appDelegate.window?.makeKeyAndVisible()
         
