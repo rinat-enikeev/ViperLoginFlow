@@ -8,9 +8,9 @@
 
 import UIKit
 
-class RootRouterImpl: RootRouter {
+class RootRouter: RootRouterInput {
     
-    static let shared = RootRouterImpl()
+    static let shared = RootRouter()
     
     func openLogin() {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate

@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol RootRouter {
+protocol RootRouterInput {
     func openLogin()
 }
