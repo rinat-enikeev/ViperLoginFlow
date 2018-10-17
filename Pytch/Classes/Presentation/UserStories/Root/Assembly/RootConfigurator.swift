@@ -1,24 +1,23 @@
 //
-//  SettingsConfigurator.swift
+//  RootConfigurator.swift
 //  Pytch
 //
-//  Created by Rinat Enikeev on 05/10/2018.
+//  Created by Rinat Enikeev on 17/10/2018.
 //  Copyright © 2018 Aparlay Limited. All rights reserved.
 //
 
 import Foundation
 
-class SettingsConfigurator {
-    func configure(view: SettingsViewController) {
-        
-        let router = SettingsRouter()
+class RootConfigurator {
+    func configure(view: RootViewController) {
+        let router = RootRouter()
         router.transitionHandler = view
         
-        let presenter = SettingsPresenter()
-        presenter.view = view
+        let presenter = RootPresenter()
         presenter.router = router
+        presenter.view = view
         
-        let interactor = SettingsInteractor()
+        let interactor = RootInteractor()
         interactor.output = presenter
         interactor.loginService = LoginServiceImpl.shared
         

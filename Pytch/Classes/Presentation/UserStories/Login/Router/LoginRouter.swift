@@ -8,14 +8,11 @@
 
 import UIKit
 
-enum LoginSegue: String {
-    case tabBar = "ShowTabBarViewControllerSegueIdentifier"
-}
-
 class LoginRouter: LoginRouterInput {
     weak var transitionHandler: UIViewController!
     
     func openTabBar() {
-        transitionHandler.performSegue(withIdentifier: LoginSegue.tabBar.rawValue, sender: nil)
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        appDelegate.window?.rootViewController?.dismiss(animated: false, completion: nil)
     }
 }

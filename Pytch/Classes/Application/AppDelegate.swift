@@ -14,11 +14,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let rootRouter = RootRouterImpl.shared
-        let loginService = LoginServiceImpl.shared
-        if !loginService.isLoggedIn {
-            rootRouter.openLogin()
-        }
         return true
     }
 

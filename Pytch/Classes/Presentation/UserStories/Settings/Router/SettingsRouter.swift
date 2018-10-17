@@ -10,9 +10,9 @@ import UIKit
 
 class SettingsRouter: SettingsRouterInput {
     weak var transitionHandler: UIViewController!
-    var rootRouter: RootRouter!
     
     func openLogin() {
-        rootRouter.openLogin()
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        appDelegate.window?.rootViewController?.dismiss(animated: false, completion: nil)
     }
 }

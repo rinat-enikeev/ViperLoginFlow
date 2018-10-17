@@ -33,9 +33,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2jP-An-skN"/>
                     </view>
-                    <connections>
-                        <segue destination="eEv-bS-RgY" kind="show" identifier="ShowTabBarViewControllerSegueIdentifier" id="9o6-nf-aWh"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zPS-hN-M1a" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="Lms-eb-7BY" customClass="LoginInitializer" customModule="Pytch" customModuleProvider="target">
@@ -45,14 +42,6 @@
                 </customObject>
             </objects>
             <point key="canvasLocation" x="-177" y="129"/>
-        </scene>
-        <!--TabBarViewController-->
-        <scene sceneID="ROa-SK-tQt">
-            <objects>
-                <viewControllerPlaceholder storyboardName="TabBar" referencedIdentifier="TabBarViewController" id="eEv-bS-RgY" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Bip-nU-CCs" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="378" y="128"/>
         </scene>
     </scenes>
 </document>
