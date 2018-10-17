@@ -15,7 +15,7 @@ class RootRouter: RootRouterInput {
     weak var navigationController: UINavigationController!
     
     func openLogin() {
-        navigationController.popToRootViewController(animated: true)
+        navigationController.popToRootViewController(animated: false)
     }
     
     func openTabBar() {
