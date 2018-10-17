@@ -12,7 +12,7 @@ class LoginConfigurator {
     
     func configure(view: LoginViewController) {
         
-        let router = LoginRouter()
+        let router = LoginRouter.shared
         router.transitionHandler = view
         
         let presenter = LoginPresenter()

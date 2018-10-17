@@ -10,6 +10,11 @@ import UIKit
 
 class LoginViewController: UIViewController {
     var output: LoginViewOutput!
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        output.viewDidAppear()
+    }
 }
 
 // MARK: - LoginViewInput

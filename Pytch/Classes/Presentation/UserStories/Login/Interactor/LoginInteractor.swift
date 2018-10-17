@@ -13,6 +13,8 @@ class LoginInteractor: LoginInteractorInput {
     
     var loginService: LoginService!
     
+    var isLoggedIn: Bool { return loginService.isLoggedIn }
+    
     func login() {
         loginService.login()
         output.didLogin()

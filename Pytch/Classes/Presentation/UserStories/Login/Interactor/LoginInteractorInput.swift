@@ -9,5 +9,6 @@
 import Foundation
 
 protocol LoginInteractorInput {
+    var isLoggedIn: Bool { get }
     func login()
 }

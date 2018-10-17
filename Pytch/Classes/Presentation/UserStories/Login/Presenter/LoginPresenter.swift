@@ -15,9 +15,17 @@ class LoginPresenter: LoginModuleInput {
 }
 
 extension LoginPresenter: LoginViewOutput {
+    
+    func viewDidAppear() {
+        if interactor.isLoggedIn {
+            router.openTabBar()
+        }
+    }
+    
     func login() {
         interactor.login()
     }
+    
 }
 
 extension LoginPresenter: LoginInteractorOutput {

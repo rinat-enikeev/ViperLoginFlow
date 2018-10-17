@@ -13,6 +13,9 @@ enum LoginSegue: String {
 }
 
 class LoginRouter: LoginRouterInput {
+    
+    static let shared = LoginRouter()
+    
     weak var transitionHandler: UIViewController!
     
     func openTabBar() {

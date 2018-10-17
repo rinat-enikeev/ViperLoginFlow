@@ -13,7 +13,6 @@ class SettingsConfigurator {
         
         let router = SettingsRouter()
         router.transitionHandler = view
-        router.rootRouter = RootRouterImpl.shared
         
         let presenter = SettingsPresenter()
         presenter.view = view
