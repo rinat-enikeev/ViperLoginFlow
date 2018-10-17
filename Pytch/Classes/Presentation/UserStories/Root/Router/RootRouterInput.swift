@@ -1,5 +1,5 @@
 //
-//  RootRouter.swift
+//  RootRouterInput.swift
 //  Pytch
 //
 //  Created by Rinat Enikeev on 04/10/2018.

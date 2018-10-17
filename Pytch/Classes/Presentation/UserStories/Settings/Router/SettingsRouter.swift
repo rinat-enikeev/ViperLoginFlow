@@ -10,7 +10,7 @@ import UIKit
 
 class SettingsRouter: SettingsRouterInput {
     weak var transitionHandler: UIViewController!
-    var rootRouter: RootRouter!
+    var rootRouter: RootRouterInput!
     
     func openLogin() {
         rootRouter.openLogin()

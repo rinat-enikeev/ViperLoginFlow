@@ -34,7 +34,7 @@
                         <viewLayoutGuide key="safeArea" id="2jP-An-skN"/>
                     </view>
                     <connections>
-                        <segue destination="eEv-bS-RgY" kind="show" identifier="ShowTabBarViewControllerSegueIdentifier" id="9o6-nf-aWh"/>
+                        <segue destination="eEv-bS-RgY" kind="show" identifier="ShowTabBarViewControllerSegueIdentifier" animates="NO" id="9o6-nf-aWh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zPS-hN-M1a" userLabel="First Responder" sceneMemberID="firstResponder"/>
