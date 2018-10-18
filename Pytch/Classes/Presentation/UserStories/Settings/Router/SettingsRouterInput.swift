@@ -9,5 +9,6 @@
 import Foundation
 
 protocol SettingsRouterInput {
-    func openLogin()
+    func openAccountModal()
+    func openAccountNavigation()
 }

@@ -15,13 +15,16 @@ class SettingsPresenter: SettingsModuleInput {
 }
 
 extension SettingsPresenter: SettingsViewOutput {
-    func logout() {
-        interactor.logout()
+    
+    func didSelectAccountNavigation() {
+        router.openAccountNavigation()
+    }
+    
+    func didSelectAccountModal() {
+        router.openAccountModal()
     }
 }
 
 extension SettingsPresenter: SettingsInteractorOutput {
-    func didLogout() {
-        router.openLogin()
-    }
+    
 }

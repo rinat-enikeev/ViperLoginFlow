@@ -32,10 +32,10 @@
             </objects>
             <point key="canvasLocation" x="-631" y="-128"/>
         </scene>
-        <!--SettingsViewController-->
+        <!--SettingsNavigationController-->
         <scene sceneID="UjC-TX-Wno">
             <objects>
-                <viewControllerPlaceholder storyboardName="Settings" referencedIdentifier="SettingsViewController" id="hMK-fr-nYk" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Settings" referencedIdentifier="SettingsNavigationController" id="hMK-fr-nYk" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Settings" id="BEe-CS-LJH"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="egl-2T-cyy" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0CEAFC21787351000CA0A7 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0CEAFB21787351000CA0A7 /* Account.storyboard */; };
+		0E0CEAFE21787378000CA0A7 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEAFD21787378000CA0A7 /* AccountViewController.swift */; };
+		0E0CEB00217873E3000CA0A7 /* AccountViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEAFF217873E3000CA0A7 /* AccountViewInput.swift */; };
+		0E0CEB02217873F4000CA0A7 /* AccountViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB01217873F4000CA0A7 /* AccountViewOutput.swift */; };
+		0E0CEB0421787438000CA0A7 /* AccountRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB0321787438000CA0A7 /* AccountRouterInput.swift */; };
+		0E0CEB062178744F000CA0A7 /* AccountRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB052178744F000CA0A7 /* AccountRouter.swift */; };
+		0E0CEB0821787490000CA0A7 /* AccountInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB0721787490000CA0A7 /* AccountInteractorInput.swift */; };
+		0E0CEB0A2178749E000CA0A7 /* AccountInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB092178749E000CA0A7 /* AccountInteractorOutput.swift */; };
+		0E0CEB0C217874AA000CA0A7 /* AccountInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB0B217874AA000CA0A7 /* AccountInteractor.swift */; };
+		0E0CEB0E217874C3000CA0A7 /* AccountModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB0D217874C3000CA0A7 /* AccountModuleInput.swift */; };
+		0E0CEB10217874D3000CA0A7 /* AccountPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB0F217874D3000CA0A7 /* AccountPresenter.swift */; };
+		0E0CEB122178750E000CA0A7 /* AccountInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB112178750E000CA0A7 /* AccountInitializer.swift */; };
+		0E0CEB142178753D000CA0A7 /* AccountConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB132178753D000CA0A7 /* AccountConfigurator.swift */; };
 		0E3A227D21771FFB00175D6B /* Root.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A227C21771FFB00175D6B /* Root.storyboard */; };
 		0E3A2281217721E300175D6B /* RootInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3A2280217721E300175D6B /* RootInitializer.swift */; };
 		0E3A22832177222700175D6B /* RootConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3A22822177222700175D6B /* RootConfigurator.swift */; };
@@ -72,6 +85,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E0CEAFB21787351000CA0A7 /* Account.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
+		0E0CEAFD21787378000CA0A7 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		0E0CEAFF217873E3000CA0A7 /* AccountViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewInput.swift; sourceTree = "<group>"; };
+		0E0CEB01217873F4000CA0A7 /* AccountViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewOutput.swift; sourceTree = "<group>"; };
+		0E0CEB0321787438000CA0A7 /* AccountRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRouterInput.swift; sourceTree = "<group>"; };
+		0E0CEB052178744F000CA0A7 /* AccountRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRouter.swift; sourceTree = "<group>"; };
+		0E0CEB0721787490000CA0A7 /* AccountInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInteractorInput.swift; sourceTree = "<group>"; };
+		0E0CEB092178749E000CA0A7 /* AccountInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInteractorOutput.swift; sourceTree = "<group>"; };
+		0E0CEB0B217874AA000CA0A7 /* AccountInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInteractor.swift; sourceTree = "<group>"; };
+		0E0CEB0D217874C3000CA0A7 /* AccountModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModuleInput.swift; sourceTree = "<group>"; };
+		0E0CEB0F217874D3000CA0A7 /* AccountPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPresenter.swift; sourceTree = "<group>"; };
+		0E0CEB112178750E000CA0A7 /* AccountInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInitializer.swift; sourceTree = "<group>"; };
+		0E0CEB132178753D000CA0A7 /* AccountConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountConfigurator.swift; sourceTree = "<group>"; };
 		0E3A227C21771FFB00175D6B /* Root.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Root.storyboard; sourceTree = "<group>"; };
 		0E3A2280217721E300175D6B /* RootInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInitializer.swift; sourceTree = "<group>"; };
 		0E3A22822177222700175D6B /* RootConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootConfigurator.swift; sourceTree = "<group>"; };
@@ -149,6 +175,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E0CEAF421787324000CA0A7 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CEAFA21787344000CA0A7 /* Storyboard */,
+				0E0CEAF92178733E000CA0A7 /* Assembly */,
+				0E0CEAF821787339000CA0A7 /* Interactor */,
+				0E0CEAF721787333000CA0A7 /* Presenter */,
+				0E0CEAF62178732F000CA0A7 /* Router */,
+				0E0CEAF52178732C000CA0A7 /* View */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		0E0CEAF52178732C000CA0A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CEAFF217873E3000CA0A7 /* AccountViewInput.swift */,
+				0E0CEB01217873F4000CA0A7 /* AccountViewOutput.swift */,
+				0E0CEAFD21787378000CA0A7 /* AccountViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E0CEAF62178732F000CA0A7 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CEB0321787438000CA0A7 /* AccountRouterInput.swift */,
+				0E0CEB052178744F000CA0A7 /* AccountRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0E0CEAF721787333000CA0A7 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CEB0D217874C3000CA0A7 /* AccountModuleInput.swift */,
+				0E0CEB0F217874D3000CA0A7 /* AccountPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0E0CEAF821787339000CA0A7 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CEB0721787490000CA0A7 /* AccountInteractorInput.swift */,
+				0E0CEB092178749E000CA0A7 /* AccountInteractorOutput.swift */,
+				0E0CEB0B217874AA000CA0A7 /* AccountInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		0E0CEAF92178733E000CA0A7 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CEB112178750E000CA0A7 /* AccountInitializer.swift */,
+				0E0CEB132178753D000CA0A7 /* AccountConfigurator.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		0E0CEAFA21787344000CA0A7 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CEAFB21787351000CA0A7 /* Account.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		0E3A227A21771FD900175D6B /* Root */ = {
 			isa = PBXGroup;
 			children = (
@@ -493,6 +587,7 @@
 		0E83974B216660FB004BEA60 /* UserStories */ = {
 			isa = PBXGroup;
 			children = (
+				0E0CEAF421787324000CA0A7 /* Account */,
 				0E8396FC21664CDE004BEA60 /* Login */,
 				0E3A227A21771FD900175D6B /* Root */,
 				0E81E4E921676D0200772274 /* Settings */,
@@ -643,6 +738,7 @@
 				0EC323BF21639C69004592BE /* Assets.xcassets in Resources */,
 				0E3A227D21771FFB00175D6B /* Root.storyboard in Resources */,
 				0E81E4F12167718400772274 /* Settings.storyboard in Resources */,
+				0E0CEAFC21787351000CA0A7 /* Account.storyboard in Resources */,
 				0E79F416216B4C1D00C772E1 /* Web.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -656,25 +752,31 @@
 			files = (
 				0E79F41A216B4CDA00C772E1 /* WebViewInput.swift in Sources */,
 				0E79F41C216B4CE700C772E1 /* WebViewOutput.swift in Sources */,
+				0E0CEAFE21787378000CA0A7 /* AccountViewController.swift in Sources */,
 				0E81E4F5216771FB00772274 /* SettingsViewInput.swift in Sources */,
 				0E83973721665629004BEA60 /* TabBarRouter.swift in Sources */,
 				0E83972321665432004BEA60 /* LoginInitializer.swift in Sources */,
 				0E81E4F3216771C100772274 /* SettingsViewController.swift in Sources */,
 				0E83971921665379004BEA60 /* LoginInteractorOutput.swift in Sources */,
 				0E839721216653D3004BEA60 /* LoginPresenter.swift in Sources */,
+				0E0CEB0421787438000CA0A7 /* AccountRouterInput.swift in Sources */,
 				0E83971121665193004BEA60 /* LoginViewInput.swift in Sources */,
 				0E83970D2166513F004BEA60 /* LoginServiceImpl.swift in Sources */,
 				0E83971521665215004BEA60 /* LoginRouterInput.swift in Sources */,
 				0E83973D21665667004BEA60 /* TabBarInteractor.swift in Sources */,
 				0E839713216651E1004BEA60 /* LoginViewOutput.swift in Sources */,
+				0E0CEB0A2178749E000CA0A7 /* AccountInteractorOutput.swift in Sources */,
+				0E0CEB10217874D3000CA0A7 /* AccountPresenter.swift in Sources */,
 				0E81E5072167746400772274 /* SettingsInitializer.swift in Sources */,
 				0E79F41E216B4D2700C772E1 /* WebRouterInput.swift in Sources */,
 				0E79F42A216B4DA700C772E1 /* WebPresenter.swift in Sources */,
 				0E83971721665225004BEA60 /* LoginRouter.swift in Sources */,
 				0E79F42E216B4E2400C772E1 /* WebConfigurator.swift in Sources */,
+				0E0CEB02217873F4000CA0A7 /* AccountViewOutput.swift in Sources */,
 				0E81E4E52167557500772274 /* RootRouter.swift in Sources */,
 				0E83972F21665591004BEA60 /* TabBarViewController.swift in Sources */,
 				0E79F426216B4D7A00C772E1 /* WebInteractor.swift in Sources */,
+				0E0CEB062178744F000CA0A7 /* AccountRouter.swift in Sources */,
 				0E83970A216650D8004BEA60 /* LoginService.swift in Sources */,
 				0E8397352166561B004BEA60 /* TabBarRouterInput.swift in Sources */,
 				0E839741216657DE004BEA60 /* TabBarPresenter.swift in Sources */,
@@ -683,8 +785,10 @@
 				0E79F424216B4D6E00C772E1 /* WebInteractorOutput.swift in Sources */,
 				0E81E4FF2167738B00772274 /* SettingsInteractorOutput.swift in Sources */,
 				0E83974F21666198004BEA60 /* RootRouterInput.swift in Sources */,
+				0E0CEB00217873E3000CA0A7 /* AccountViewInput.swift in Sources */,
 				0E81E5012167739800772274 /* SettingsInteractor.swift in Sources */,
 				0E83971D216653A6004BEA60 /* LoginInteractor.swift in Sources */,
+				0E0CEB0821787490000CA0A7 /* AccountInteractorInput.swift in Sources */,
 				0E83973B21665656004BEA60 /* TabBarInteractorOutput.swift in Sources */,
 				0E3A2281217721E300175D6B /* RootInitializer.swift in Sources */,
 				0E3A22832177222700175D6B /* RootConfigurator.swift in Sources */,
@@ -694,6 +798,7 @@
 				0E79F42C216B4DEE00C772E1 /* WebInitializer.swift in Sources */,
 				0E83970F2166517E004BEA60 /* LoginViewController.swift in Sources */,
 				0E81E4F92167734400772274 /* SettingsRouterInput.swift in Sources */,
+				0E0CEB122178750E000CA0A7 /* AccountInitializer.swift in Sources */,
 				0E839733216655F5004BEA60 /* TabBarViewOutput.swift in Sources */,
 				0E79F422216B4D6100C772E1 /* WebInteractorInput.swift in Sources */,
 				0E81E4FD2167737600772274 /* SettingsInteractorInput.swift in Sources */,
@@ -701,14 +806,17 @@
 				0E81E509216774B900772274 /* SettingsConfigurator.swift in Sources */,
 				0EC323B821639C68004592BE /* AppDelegate.swift in Sources */,
 				0E839731216655E5004BEA60 /* TabBarViewInput.swift in Sources */,
+				0E0CEB0E217874C3000CA0A7 /* AccountModuleInput.swift in Sources */,
 				0E83973921665649004BEA60 /* TabBarInteractorInput.swift in Sources */,
 				0E83973F216657CC004BEA60 /* TabBarModuleInput.swift in Sources */,
 				0E8397432166581E004BEA60 /* TabBarInitializer.swift in Sources */,
+				0E0CEB142178753D000CA0A7 /* AccountConfigurator.swift in Sources */,
 				0E8397252166545A004BEA60 /* LoginConfigurator.swift in Sources */,
 				0E81E4F72167723500772274 /* SettingsViewOutput.swift in Sources */,
 				0E81E503216773B400772274 /* SettingsModuleInput.swift in Sources */,
 				0E83971B2166539B004BEA60 /* LoginInteractorInput.swift in Sources */,
 				0E81E505216773C300772274 /* SettingsPresenter.swift in Sources */,
+				0E0CEB0C217874AA000CA0A7 /* AccountInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

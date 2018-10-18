@@ -8,8 +8,12 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController {
+class SettingsViewController: UITableViewController {
     var output: SettingsViewOutput!
+    
+    @IBOutlet weak var accountNavigationCell: UITableViewCell!
+    @IBOutlet weak var accountModalCell: UITableViewCell!
+    
 }
 
 // MARK: - SettingsViewInput
@@ -17,10 +21,14 @@ extension SettingsViewController: SettingsViewInput {
     
 }
 
-// MARK: - IBActions
+// MARK: - UITableViewDelegate
 extension SettingsViewController {
-    
-    @IBAction func logoutTouchUpInside(_ sender: Any) {
-        output.logout()
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let cell = tableView.cellForRow(at: indexPath)
+        if cell == accountNavigationCell {
+            output.didSelectAccountNavigation()
+        } else if cell == accountModalCell {
+            output.didSelectAccountModal()
+        }
     }
 }

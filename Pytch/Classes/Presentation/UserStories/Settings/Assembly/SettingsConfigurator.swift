@@ -13,7 +13,6 @@ class SettingsConfigurator {
         
         let router = SettingsRouter()
         router.transitionHandler = view
-        router.rootRouter = RootRouter.shared
         
         let presenter = SettingsPresenter()
         presenter.view = view
@@ -21,7 +20,6 @@ class SettingsConfigurator {
         
         let interactor = SettingsInteractor()
         interactor.output = presenter
-        interactor.loginService = LoginServiceImpl.shared
         
         presenter.interactor = interactor
         

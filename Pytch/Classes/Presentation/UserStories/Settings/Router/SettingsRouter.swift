@@ -8,11 +8,19 @@
 
 import UIKit
 
+enum SettingsSegue: String {
+    case accountNavigation = "ShowAccountViewControllerSegueIdentifier"
+    case accountModal = "PresentAccountViewControllerSegueIdentifier"
+}
+
 class SettingsRouter: SettingsRouterInput {
     weak var transitionHandler: UIViewController!
-    var rootRouter: RootRouterInput!
     
-    func openLogin() {
-        rootRouter.openLogin()
+    func openAccountModal() {
+        transitionHandler.performSegue(withIdentifier: SettingsSegue.accountModal.rawValue, sender: nil)
+    }
+    
+    func openAccountNavigation() {
+        transitionHandler.performSegue(withIdentifier: SettingsSegue.accountNavigation.rawValue, sender: nil)
     }
 }

@@ -1,49 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4bd-gc-N7V">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eLb-b0-KeX">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="9sf-OP-r6M">
+        <scene sceneID="oDh-qn-iGn">
             <objects>
-                <viewController storyboardIdentifier="SettingsViewController" id="4bd-gc-N7V" customClass="SettingsViewController" customModule="Pytch" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="yi9-Zx-rYQ">
+                <tableViewController storyboardIdentifier="SettingsViewController" id="IcM-6W-Dw8" customClass="SettingsViewController" customModule="Pytch" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="luA-qD-vM1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jWL-sZ-iwy">
-                                <rect key="frame" x="163.5" y="304" width="48" height="30"/>
-                                <state key="normal" title="Logout"/>
-                                <connections>
-                                    <action selector="logoutTouchUpInside:" destination="4bd-gc-N7V" eventType="touchUpInside" id="Jcw-iH-iRB"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="jWL-sZ-iwy" firstAttribute="centerX" secondItem="sfm-uL-Kiw" secondAttribute="centerX" id="1SO-sh-1gd"/>
-                            <constraint firstItem="jWL-sZ-iwy" firstAttribute="centerY" secondItem="sfm-uL-Kiw" secondAttribute="centerY" id="dBD-hE-faJ"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="sfm-uL-Kiw"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Settings" id="Fst-4a-xD3"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="N3M-qW-5Sz" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="n1M-1j-Ric" customClass="SettingsInitializer" customModule="Pytch" customModuleProvider="target">
+                        <sections>
+                            <tableViewSection id="MPq-Fa-ch8">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="iy9-CY-4LZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iy9-CY-4LZ" id="E1c-Dv-JDt">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account navigation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jxz-pk-2ho">
+                                                    <rect key="frame" x="16" y="11.5" width="147" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="jxz-pk-2ho" firstAttribute="centerY" secondItem="E1c-Dv-JDt" secondAttribute="centerY" id="pAa-XM-o5g"/>
+                                                <constraint firstItem="jxz-pk-2ho" firstAttribute="leading" secondItem="E1c-Dv-JDt" secondAttribute="leading" constant="16" id="wa7-eF-H8r"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="FB1-KX-BNg">
+                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FB1-KX-BNg" id="uK2-g2-MzP">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account modal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JF7-An-Dof">
+                                                    <rect key="frame" x="16" y="11.5" width="115" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="JF7-An-Dof" firstAttribute="centerY" secondItem="uK2-g2-MzP" secondAttribute="centerY" id="MOB-3s-Dd9"/>
+                                                <constraint firstItem="JF7-An-Dof" firstAttribute="leading" secondItem="uK2-g2-MzP" secondAttribute="leading" constant="16" id="xVU-py-Ezw"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="IcM-6W-Dw8" id="mWe-23-7a3"/>
+                            <outlet property="delegate" destination="IcM-6W-Dw8" id="YAr-Le-mCR"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Settings" id="gtW-ab-wRS"/>
                     <connections>
-                        <outlet property="viewController" destination="4bd-gc-N7V" id="vGL-82-deI"/>
+                        <outlet property="accountModalCell" destination="FB1-KX-BNg" id="qYs-LR-yEb"/>
+                        <outlet property="accountNavigationCell" destination="iy9-CY-4LZ" id="Kbq-i8-png"/>
+                        <segue destination="0fG-fs-ZDs" kind="show" identifier="ShowAccountViewControllerSegueIdentifier" id="mDg-id-zRE"/>
+                        <segue destination="7Jt-X6-5km" kind="presentation" identifier="PresentAccountViewControllerSegueIdentifier" id="hPM-97-2u4"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n2d-Cv-g26" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="okV-Q9-owa" customClass="SettingsInitializer" customModule="Pytch" customModuleProvider="target">
+                    <connections>
+                        <outlet property="viewController" destination="IcM-6W-Dw8" id="d5Z-Qt-9db"/>
                     </connections>
                 </customObject>
             </objects>
-            <point key="canvasLocation" x="113" y="128"/>
+            <point key="canvasLocation" x="798" y="822"/>
+        </scene>
+        <!--AccountViewController-->
+        <scene sceneID="rGC-ou-OT3">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Account" referencedIdentifier="AccountViewController" id="0fG-fs-ZDs" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Waf-nj-ABc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1386" y="821"/>
+        </scene>
+        <!--AccountViewController-->
+        <scene sceneID="Yt8-Uc-M76">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Account" referencedIdentifier="AccountViewController" id="7Jt-X6-5km" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eef-0l-x2W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1386" y="874"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="Djd-D1-SQS">
+            <objects>
+                <navigationController storyboardIdentifier="SettingsNavigationController" id="eLb-b0-KeX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Settings" id="9vP-KN-l6Z"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="b2a-gf-pYj">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="IcM-6W-Dw8" kind="relationship" relationship="rootViewController" id="Fen-de-lHw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SyI-QE-WCf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113" y="823"/>
         </scene>
     </scenes>
 </document>

@@ -9,5 +9,6 @@
 import Foundation
 
 protocol SettingsViewOutput {
-    func logout()
+    func didSelectAccountNavigation()
+    func didSelectAccountModal()
 }
