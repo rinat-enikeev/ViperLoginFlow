@@ -51,6 +51,8 @@
 		0E0CEB602178A8BA000CA0A7 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB5F2178A8BA000CA0A7 /* RegisterPresenter.swift */; };
 		0E0CEB622178A8FE000CA0A7 /* RegisterInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB612178A8FE000CA0A7 /* RegisterInitializer.swift */; };
 		0E0CEB642178A92F000CA0A7 /* RegisterConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB632178A92F000CA0A7 /* RegisterConfigurator.swift */; };
+		0E0CEB672178A9B5000CA0A7 /* RegisterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB662178A9B5000CA0A7 /* RegisterService.swift */; };
+		0E0CEB6A2178A9EE000CA0A7 /* RegisterServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB692178A9EE000CA0A7 /* RegisterServiceImpl.swift */; };
 		0E3A227D21771FFB00175D6B /* Root.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A227C21771FFB00175D6B /* Root.storyboard */; };
 		0E3A2281217721E300175D6B /* RootInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3A2280217721E300175D6B /* RootInitializer.swift */; };
 		0E3A22832177222700175D6B /* RootConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3A22822177222700175D6B /* RootConfigurator.swift */; };
@@ -160,6 +162,8 @@
 		0E0CEB5F2178A8BA000CA0A7 /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
 		0E0CEB612178A8FE000CA0A7 /* RegisterInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInitializer.swift; sourceTree = "<group>"; };
 		0E0CEB632178A92F000CA0A7 /* RegisterConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterConfigurator.swift; sourceTree = "<group>"; };
+		0E0CEB662178A9B5000CA0A7 /* RegisterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterService.swift; sourceTree = "<group>"; };
+		0E0CEB692178A9EE000CA0A7 /* RegisterServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterServiceImpl.swift; sourceTree = "<group>"; };
 		0E3A227C21771FFB00175D6B /* Root.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Root.storyboard; sourceTree = "<group>"; };
 		0E3A2280217721E300175D6B /* RootInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInitializer.swift; sourceTree = "<group>"; };
 		0E3A22822177222700175D6B /* RootConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootConfigurator.swift; sourceTree = "<group>"; };
@@ -469,6 +473,23 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
+		0E0CEB652178A9A3000CA0A7 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CEB682178A9E2000CA0A7 /* Impl */,
+				0E0CEB662178A9B5000CA0A7 /* RegisterService.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		0E0CEB682178A9E2000CA0A7 /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CEB692178A9EE000CA0A7 /* RegisterServiceImpl.swift */,
+			);
+			path = Impl;
+			sourceTree = "<group>";
+		};
 		0E3A227A21771FD900175D6B /* Root */ = {
 			isa = PBXGroup;
 			children = (
@@ -735,6 +756,7 @@
 			children = (
 				0E839708216650C6004BEA60 /* Login */,
 				0E0CEB3E21789997000CA0A7 /* Onboard */,
+				0E0CEB652178A9A3000CA0A7 /* Register */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -1037,6 +1059,7 @@
 				0E8397452166584E004BEA60 /* TabBarConfigurator.swift in Sources */,
 				0E0CEB43217899C5000CA0A7 /* OnboardServiceImpl.swift in Sources */,
 				0E79F428216B4D9600C772E1 /* WebModuleInput.swift in Sources */,
+				0E0CEB6A2178A9EE000CA0A7 /* RegisterServiceImpl.swift in Sources */,
 				0E79F418216B4C3A00C772E1 /* WebViewController.swift in Sources */,
 				0E79F42C216B4DEE00C772E1 /* WebInitializer.swift in Sources */,
 				0E83970F2166517E004BEA60 /* LoginViewController.swift in Sources */,
@@ -1066,6 +1089,7 @@
 				0E83973F216657CC004BEA60 /* TabBarModuleInput.swift in Sources */,
 				0E8397432166581E004BEA60 /* TabBarInitializer.swift in Sources */,
 				0E0CEB142178753D000CA0A7 /* AccountConfigurator.swift in Sources */,
+				0E0CEB672178A9B5000CA0A7 /* RegisterService.swift in Sources */,
 				0E8397252166545A004BEA60 /* LoginConfigurator.swift in Sources */,
 				0E0CEB5E2178A8A8000CA0A7 /* RegisterModuleInput.swift in Sources */,
 				0E81E4F72167723500772274 /* SettingsViewOutput.swift in Sources */,

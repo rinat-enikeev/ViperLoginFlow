@@ -9,7 +9,7 @@
 import Foundation
 
 protocol LoginService {
-    var isLoggedIn: Bool { get }
+    var isLoggedIn: Bool { get set }
     
     func login()
     func logout()
