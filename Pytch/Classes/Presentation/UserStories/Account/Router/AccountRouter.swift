@@ -13,6 +13,6 @@ class AccountRouter: AccountRouterInput {
     var rootRouter: RootRouterInput!
     
     func openLogin() {
-        rootRouter.openLogin()
+        rootRouter.returnToLogin()
     }
 }

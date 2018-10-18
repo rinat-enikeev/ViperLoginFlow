@@ -36,6 +36,8 @@
 		0E0CEB3921789185000CA0A7 /* OnboardPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB3821789185000CA0A7 /* OnboardPage1ViewController.swift */; };
 		0E0CEB3B217891B6000CA0A7 /* OnboardPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB3A217891B6000CA0A7 /* OnboardPage2ViewController.swift */; };
 		0E0CEB3D217891DE000CA0A7 /* OnboardPage3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB3C217891DE000CA0A7 /* OnboardPage3ViewController.swift */; };
+		0E0CEB40217899AA000CA0A7 /* OnboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB3F217899AA000CA0A7 /* OnboardService.swift */; };
+		0E0CEB43217899C5000CA0A7 /* OnboardServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB42217899C5000CA0A7 /* OnboardServiceImpl.swift */; };
 		0E3A227D21771FFB00175D6B /* Root.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A227C21771FFB00175D6B /* Root.storyboard */; };
 		0E3A2281217721E300175D6B /* RootInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3A2280217721E300175D6B /* RootInitializer.swift */; };
 		0E3A22832177222700175D6B /* RootConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3A22822177222700175D6B /* RootConfigurator.swift */; };
@@ -130,6 +132,8 @@
 		0E0CEB3821789185000CA0A7 /* OnboardPage1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPage1ViewController.swift; sourceTree = "<group>"; };
 		0E0CEB3A217891B6000CA0A7 /* OnboardPage2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPage2ViewController.swift; sourceTree = "<group>"; };
 		0E0CEB3C217891DE000CA0A7 /* OnboardPage3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPage3ViewController.swift; sourceTree = "<group>"; };
+		0E0CEB3F217899AA000CA0A7 /* OnboardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardService.swift; sourceTree = "<group>"; };
+		0E0CEB42217899C5000CA0A7 /* OnboardServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardServiceImpl.swift; sourceTree = "<group>"; };
 		0E3A227C21771FFB00175D6B /* Root.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Root.storyboard; sourceTree = "<group>"; };
 		0E3A2280217721E300175D6B /* RootInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInitializer.swift; sourceTree = "<group>"; };
 		0E3A22822177222700175D6B /* RootConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootConfigurator.swift; sourceTree = "<group>"; };
@@ -352,6 +356,23 @@
 				0E0CEB3C217891DE000CA0A7 /* OnboardPage3ViewController.swift */,
 			);
 			path = Pages;
+			sourceTree = "<group>";
+		};
+		0E0CEB3E21789997000CA0A7 /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CEB41217899B6000CA0A7 /* Impl */,
+				0E0CEB3F217899AA000CA0A7 /* OnboardService.swift */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		0E0CEB41217899B6000CA0A7 /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CEB42217899C5000CA0A7 /* OnboardServiceImpl.swift */,
+			);
+			path = Impl;
 			sourceTree = "<group>";
 		};
 		0E3A227A21771FD900175D6B /* Root */ = {
@@ -619,6 +640,7 @@
 			isa = PBXGroup;
 			children = (
 				0E839708216650C6004BEA60 /* Login */,
+				0E0CEB3E21789997000CA0A7 /* Onboard */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -914,6 +936,7 @@
 				0E3A22832177222700175D6B /* RootConfigurator.swift in Sources */,
 				0E0CEB3421788B6D000CA0A7 /* OnboardInitializer.swift in Sources */,
 				0E8397452166584E004BEA60 /* TabBarConfigurator.swift in Sources */,
+				0E0CEB43217899C5000CA0A7 /* OnboardServiceImpl.swift in Sources */,
 				0E79F428216B4D9600C772E1 /* WebModuleInput.swift in Sources */,
 				0E79F418216B4C3A00C772E1 /* WebViewController.swift in Sources */,
 				0E79F42C216B4DEE00C772E1 /* WebInitializer.swift in Sources */,
@@ -943,6 +966,7 @@
 				0E81E503216773B400772274 /* SettingsModuleInput.swift in Sources */,
 				0E83971B2166539B004BEA60 /* LoginInteractorInput.swift in Sources */,
 				0E0CEB3221788A01000CA0A7 /* OnboardPresenter.swift in Sources */,
+				0E0CEB40217899AA000CA0A7 /* OnboardService.swift in Sources */,
 				0E81E505216773C300772274 /* SettingsPresenter.swift in Sources */,
 				0E0CEB0C217874AA000CA0A7 /* AccountInteractor.swift in Sources */,
 			);

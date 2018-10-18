@@ -12,7 +12,7 @@ class LoginServiceImpl: LoginService {
     
     static let shared = LoginServiceImpl()
     
-    var isLoggedIn = false
+    var isLoggedIn = true
     
     func login() {
         isLoggedIn = true

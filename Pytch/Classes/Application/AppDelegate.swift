@@ -14,10 +14,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
         let rootRouter = RootRouter.shared
         let loginService = LoginServiceImpl.shared
+        let onboardService = OnboardServiceImpl.shared
+        
         if loginService.isLoggedIn {
+            rootRouter.skipOnboarding()
             rootRouter.openTabBar()
+        } else {
+            if  onboardService.onboarded {
+                rootRouter.skipOnboarding()
+            }
         }
         return true
     }
