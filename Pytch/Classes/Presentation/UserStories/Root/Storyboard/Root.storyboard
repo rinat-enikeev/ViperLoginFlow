@@ -29,10 +29,10 @@
             </objects>
             <point key="canvasLocation" x="-916" y="28"/>
         </scene>
-        <!--LoginViewController-->
+        <!--OnboardViewController-->
         <scene sceneID="HC8-vw-XVl">
             <objects>
-                <viewControllerPlaceholder storyboardName="Login" referencedIdentifier="LoginViewController" id="Z86-fG-CaJ" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Onboard" referencedIdentifier="OnboardViewController" id="Z86-fG-CaJ" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="4Fg-e5-e2Q"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xxY-6f-jxP" userLabel="First Responder" sceneMemberID="firstResponder"/>
