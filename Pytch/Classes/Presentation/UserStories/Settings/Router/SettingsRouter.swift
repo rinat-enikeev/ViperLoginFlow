@@ -13,6 +13,6 @@ class SettingsRouter: SettingsRouterInput {
     
     func openLogin() {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        appDelegate.window?.rootViewController?.dismiss(animated: true, completion: nil)
+        appDelegate.window?.rootViewController?.dismiss(animated: false, completion: nil)
     }
 }
