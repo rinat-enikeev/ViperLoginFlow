@@ -9,5 +9,5 @@
 import Foundation
 
 protocol RegisterViewOutput {
-    
+    func register(email: String, password: String)
 }

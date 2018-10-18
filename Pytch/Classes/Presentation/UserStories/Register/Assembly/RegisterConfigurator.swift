@@ -19,6 +19,7 @@ class RegisterConfigurator {
         
         let interactor = RegisterInteractor()
         interactor.output = presenter
+        interactor.registerService = RegisterServiceImpl.shared
         
         presenter.interactor = interactor
         

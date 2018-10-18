@@ -9,5 +9,5 @@
 import Foundation
 
 protocol RegisterService {
-    func register(username: String, password: String, completion: @escaping (Error?) -> Void)
+    func register(email: String, password: String, completion: @escaping (Error?) -> Void)
 }

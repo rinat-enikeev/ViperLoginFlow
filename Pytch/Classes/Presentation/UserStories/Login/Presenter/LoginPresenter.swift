@@ -18,6 +18,9 @@ extension LoginPresenter: LoginViewOutput {
     func login() {
         interactor.login()
     }
+    func register() {
+        router.openRegister()
+    }
 }
 
 extension LoginPresenter: LoginInteractorOutput {

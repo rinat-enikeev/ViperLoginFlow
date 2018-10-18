@@ -22,5 +22,9 @@ extension LoginViewController {
     @IBAction func loginButtonTouchUpInside(_ sender: Any) {
         output.login()
     }
+    
+    @IBAction func registerButtonTouchUpInside(_ sender: Any) {
+        output.register()
+    }
 }
 

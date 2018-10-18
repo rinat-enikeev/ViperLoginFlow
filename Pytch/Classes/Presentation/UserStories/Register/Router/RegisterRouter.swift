@@ -8,6 +8,14 @@
 
 import UIKit
 
+enum RegisterSegue: String {
+    case tabBar = "ShowTabBarViewControllerSegueIdentifier"
+}
+
 class RegisterRouter: RegisterRouterInput {
     weak var transitionHandler: UIViewController!
+    
+    func openTabBar() {
+        transitionHandler.performSegue(withIdentifier: RegisterSegue.tabBar.rawValue, sender: nil)
+    }
 }

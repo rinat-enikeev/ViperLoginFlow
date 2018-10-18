@@ -21,15 +21,59 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vC-Ua-MpT">
                                 <rect key="frame" x="159" y="328.5" width="57" height="30"/>
                                 <state key="normal" title="Register"/>
+                                <connections>
+                                    <action selector="registerButtonTouchUpInside:" destination="bFT-qM-uzw" eventType="touchUpInside" id="EqD-m7-ZcR"/>
+                                </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="password" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eN1-nv-ljO">
+                                <rect key="frame" x="136.5" y="290" width="135" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pen-Md-Da7">
+                                <rect key="frame" x="54.5" y="294.5" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="example@example.com" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="umA-qL-iFB">
+                                <rect key="frame" x="103.5" y="252" width="168" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="168" id="pCs-Qr-NLS"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" textContentType="email"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwF-u2-iDo">
+                                <rect key="frame" x="54.5" y="256.5" width="41" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="0vC-Ua-MpT" firstAttribute="centerY" secondItem="pCe-R2-Dqy" secondAttribute="centerY" id="3uu-rD-zTV"/>
+                            <constraint firstItem="umA-qL-iFB" firstAttribute="leading" secondItem="zwF-u2-iDo" secondAttribute="trailing" constant="8" id="7Hd-QJ-ihC"/>
+                            <constraint firstItem="eN1-nv-ljO" firstAttribute="top" secondItem="umA-qL-iFB" secondAttribute="bottom" constant="8" id="Byc-QM-9tE"/>
+                            <constraint firstItem="eN1-nv-ljO" firstAttribute="leading" secondItem="Pen-Md-Da7" secondAttribute="trailing" constant="8" id="Ekg-QQ-FPF"/>
+                            <constraint firstItem="eN1-nv-ljO" firstAttribute="trailing" secondItem="umA-qL-iFB" secondAttribute="trailing" id="QOV-jV-YEa"/>
+                            <constraint firstItem="Pen-Md-Da7" firstAttribute="centerY" secondItem="eN1-nv-ljO" secondAttribute="centerY" id="aJs-vN-Fx9"/>
+                            <constraint firstItem="Pen-Md-Da7" firstAttribute="leading" secondItem="zwF-u2-iDo" secondAttribute="leading" id="f6l-5i-RLo"/>
                             <constraint firstItem="0vC-Ua-MpT" firstAttribute="centerX" secondItem="pCe-R2-Dqy" secondAttribute="centerX" id="gKo-ww-6uo"/>
+                            <constraint firstItem="umA-qL-iFB" firstAttribute="centerX" secondItem="0vC-Ua-MpT" secondAttribute="centerX" id="oyz-nx-uGh"/>
+                            <constraint firstItem="0vC-Ua-MpT" firstAttribute="top" secondItem="eN1-nv-ljO" secondAttribute="bottom" constant="8.5" id="psN-R2-asl"/>
+                            <constraint firstItem="zwF-u2-iDo" firstAttribute="centerY" secondItem="umA-qL-iFB" secondAttribute="centerY" id="qm8-O1-iPQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="pCe-R2-Dqy"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="umA-qL-iFB" id="9wo-ft-8Yl"/>
+                        <outlet property="passwordTextField" destination="eN1-nv-ljO" id="Dd2-Go-pcJ"/>
+                        <segue destination="M1a-Ng-Vfr" kind="show" identifier="ShowTabBarViewControllerSegueIdentifier" id="gNO-H1-qVL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wHB-Sx-Ob4" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="fF9-8u-3Xu" customClass="RegisterInitializer" customModule="Pytch" customModuleProvider="target">
@@ -38,7 +82,15 @@
                     </connections>
                 </customObject>
             </objects>
-            <point key="canvasLocation" x="225" y="-196"/>
+            <point key="canvasLocation" x="224.80000000000001" y="-196.55172413793105"/>
+        </scene>
+        <!--TabBarViewController-->
+        <scene sceneID="AKH-2p-3EA">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TabBar" referencedIdentifier="TabBarViewController" id="M1a-Ng-Vfr" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D7s-lI-ZNq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="796" y="-197"/>
         </scene>
     </scenes>
 </document>

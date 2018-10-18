@@ -14,7 +14,7 @@ class RegisterServiceImpl: RegisterService {
     
     var isRegistered = false
     
-    func register(username: String, password: String, completion: @escaping (Error?) -> Void) {
+    func register(email: String, password: String, completion: @escaping (Error?) -> Void) {
         isRegistered = true
         let loginService = LoginServiceImpl.shared
         loginService.isLoggedIn = true

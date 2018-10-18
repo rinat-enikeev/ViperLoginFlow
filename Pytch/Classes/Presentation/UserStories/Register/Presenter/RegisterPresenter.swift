@@ -15,9 +15,17 @@ class RegisterPresenter: RegisterModuleInput {
 }
 
 extension RegisterPresenter: RegisterViewOutput {
-    
+    func register(email: String, password: String) {
+        interactor.register(email: email, password: password)
+    }
 }
 
 extension RegisterPresenter: RegisterInteractorOutput {
+    func didRegister() {
+        router.openTabBar()
+    }
     
+    func didFailToRegister(with error: Error) {
+        view.show(error: error)
+    }
 }

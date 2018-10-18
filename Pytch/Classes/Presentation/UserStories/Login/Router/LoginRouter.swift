@@ -11,6 +11,7 @@ import UIKit
 enum LoginSegue: String {
     case tabBar = "ShowTabBarViewControllerSegueIdentifier"
     case tabBarAnimated = "ShowTabBarViewControllerAnimatedSegueIdentifier"
+    case register = "ShowRegisterViewControllerSegueIdentifier"
 }
 
 class LoginRouter: LoginRouterInput {
@@ -18,5 +19,9 @@ class LoginRouter: LoginRouterInput {
     
     func openTabBar() {
         transitionHandler.performSegue(withIdentifier: LoginSegue.tabBarAnimated.rawValue, sender: nil)
+    }
+    
+    func openRegister() {
+        transitionHandler.performSegue(withIdentifier: LoginSegue.register.rawValue, sender: nil)
     }
 }

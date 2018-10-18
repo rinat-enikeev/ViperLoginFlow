@@ -25,9 +25,18 @@
                                     <action selector="loginButtonTouchUpInside:" destination="OUE-UB-7vV" eventType="touchUpInside" id="rYT-Iq-KXh"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nW8-7k-WFa">
+                                <rect key="frame" x="159" y="617" width="57" height="30"/>
+                                <state key="normal" title="Register"/>
+                                <connections>
+                                    <action selector="registerButtonTouchUpInside:" destination="OUE-UB-7vV" eventType="touchUpInside" id="GnM-9o-hhc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="2jP-An-skN" firstAttribute="bottom" secondItem="nW8-7k-WFa" secondAttribute="bottom" constant="20" id="EWJ-hL-L46"/>
+                            <constraint firstItem="nW8-7k-WFa" firstAttribute="centerX" secondItem="2jP-An-skN" secondAttribute="centerX" id="TEx-1y-b3b"/>
                             <constraint firstItem="4cp-kU-AmC" firstAttribute="centerX" secondItem="2jP-An-skN" secondAttribute="centerX" id="fRW-2C-XPZ"/>
                             <constraint firstItem="4cp-kU-AmC" firstAttribute="centerY" secondItem="2jP-An-skN" secondAttribute="centerY" id="wAN-sU-MIY"/>
                         </constraints>
@@ -36,6 +45,7 @@
                     <connections>
                         <segue destination="eEv-bS-RgY" kind="show" identifier="ShowTabBarViewControllerSegueIdentifier" animates="NO" id="9o6-nf-aWh"/>
                         <segue destination="iNz-GX-e76" kind="show" identifier="ShowTabBarViewControllerAnimatedSegueIdentifier" id="cQa-Oz-eLI"/>
+                        <segue destination="Zsi-co-NdP" kind="show" identifier="ShowRegisterViewControllerSegueIdentifier" id="ff6-X8-y5p"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zPS-hN-M1a" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -62,6 +72,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hcd-Oq-mjj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="377" y="178"/>
+        </scene>
+        <!--RegisterViewController-->
+        <scene sceneID="3lq-uI-3Jv">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Register" referencedIdentifier="RegisterViewController" id="Zsi-co-NdP" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mhg-OO-7eo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="379" y="234"/>
         </scene>
     </scenes>
 </document>

@@ -10,4 +10,5 @@ import Foundation
 
 protocol LoginRouterInput {
     func openTabBar()
+    func openRegister()
 }

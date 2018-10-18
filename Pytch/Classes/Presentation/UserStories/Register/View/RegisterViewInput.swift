@@ -9,5 +9,5 @@
 import Foundation
 
 protocol RegisterViewInput: class {
-    
+    func show(error: Error)
 }

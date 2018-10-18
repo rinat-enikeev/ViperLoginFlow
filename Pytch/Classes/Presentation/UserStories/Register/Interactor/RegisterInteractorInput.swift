@@ -9,5 +9,5 @@
 import Foundation
 
 protocol RegisterInteractorInput {
-    
+    func register(email: String, password: String)
 }

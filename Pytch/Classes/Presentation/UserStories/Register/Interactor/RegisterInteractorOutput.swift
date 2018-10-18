@@ -9,5 +9,6 @@
 import Foundation
 
 protocol RegisterInteractorOutput: class {
-    
+    func didRegister()
+    func didFailToRegister(with error: Error)
 }
