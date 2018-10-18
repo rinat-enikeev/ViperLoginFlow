@@ -9,5 +9,5 @@
 import Foundation
 
 protocol RootRouterInput {
-    func returnToLogin()
+    func unwindToLogin()
 }

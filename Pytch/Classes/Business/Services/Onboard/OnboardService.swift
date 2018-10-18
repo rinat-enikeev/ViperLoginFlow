@@ -9,5 +9,5 @@
 import Foundation
 
 protocol OnboardService {
-    
+    var isOnboarded: Bool { get }
 }

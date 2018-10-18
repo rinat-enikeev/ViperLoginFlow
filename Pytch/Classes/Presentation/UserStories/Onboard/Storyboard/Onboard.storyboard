@@ -13,9 +13,10 @@
         <!--View Controller-->
         <scene sceneID="zo7-64-Qnr">
             <objects>
-                <pageViewController storyboardIdentifier="OnboardViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="itv-dQ-NC4" customClass="OnboardViewController" customModule="Pytch" customModuleProvider="target" sceneMemberID="viewController">
+                <pageViewController storyboardIdentifier="OnboardViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="itv-dQ-NC4" customClass="OnboardViewController" customModule="Pytch" customModuleProvider="target" sceneMemberID="viewController">
                     <connections>
-                        <segue destination="Xck-oY-Epe" kind="show" identifier="ShowLoginViewControllerSegueIdentifier" id="jR9-p2-24e"/>
+                        <segue destination="Xck-oY-Epe" kind="show" identifier="ShowLoginViewControllerSegueIdentifier" animates="NO" id="jR9-p2-24e"/>
+                        <segue destination="ggW-c2-cHh" kind="show" identifier="ShowLoginViewControllerAnimatedSegueIdentifier" id="gs4-kf-RVG"/>
                     </connections>
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MnC-jf-CXa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -142,6 +143,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7XW-dT-VJ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="911" y="554"/>
+        </scene>
+        <!--LoginViewController-->
+        <scene sceneID="4fk-72-FJ2">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Login" referencedIdentifier="LoginViewController" id="ggW-c2-cHh" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vrg-Y8-YOP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="828" y="-56"/>
         </scene>
     </scenes>
 </document>

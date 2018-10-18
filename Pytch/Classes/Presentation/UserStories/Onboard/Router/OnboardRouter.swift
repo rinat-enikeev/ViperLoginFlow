@@ -10,12 +10,13 @@ import UIKit
 
 enum OnboardSegue: String {
     case login = "ShowLoginViewControllerSegueIdentifier"
+    case loginAnimated = "ShowLoginViewControllerAnimatedSegueIdentifier"
 }
 
 class OnboardRouter: OnboardRouterInput {
     weak var transitionHandler: UIViewController!
     
     func openLogin() {
-        transitionHandler.performSegue(withIdentifier: OnboardSegue.login.rawValue, sender: nil)
+        transitionHandler.performSegue(withIdentifier: OnboardSegue.loginAnimated.rawValue, sender: nil)
     }
 }

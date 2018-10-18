@@ -14,7 +14,7 @@ class RootRouter: RootRouterInput {
     
     weak var navigationController: UINavigationController!
     
-    func returnToLogin() {
+    func unwindToLogin() {
         if let presented = navigationController.topViewController?.presentedViewController {
             presented.dismiss(animated: true) {
                 for viewController in self.navigationController.viewControllers {
@@ -33,17 +33,12 @@ class RootRouter: RootRouterInput {
     }
     
     func openTabBar() {
-        DispatchQueue.main.async {
-            assert(self.navigationController.topViewController is LoginViewController)
-            self.navigationController.topViewController?.performSegue(withIdentifier: LoginSegue.tabBar.rawValue, sender: nil)
-        }
-        
+        assert(navigationController.topViewController is LoginViewController)
+        navigationController.topViewController?.performSegue(withIdentifier: LoginSegue.tabBar.rawValue, sender: nil)
     }
     
     func skipOnboarding() {
-        DispatchQueue.main.async {
-            assert(self.navigationController.topViewController is OnboardViewController)
-            self.navigationController.topViewController?.performSegue(withIdentifier: OnboardSegue.login.rawValue, sender: nil)
-        }
+        assert(navigationController.topViewController is OnboardViewController)
+        navigationController.topViewController?.performSegue(withIdentifier: OnboardSegue.login.rawValue, sender: nil)
     }
 }

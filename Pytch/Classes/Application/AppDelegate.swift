@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             rootRouter.skipOnboarding()
             rootRouter.openTabBar()
         } else {
-            if  onboardService.onboarded {
+            if onboardService.isOnboarded {
                 rootRouter.skipOnboarding()
             }
         }
