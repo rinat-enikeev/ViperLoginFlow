@@ -35,6 +35,7 @@
                     </view>
                     <connections>
                         <segue destination="eEv-bS-RgY" kind="show" identifier="ShowTabBarViewControllerSegueIdentifier" animates="NO" id="9o6-nf-aWh"/>
+                        <segue destination="iNz-GX-e76" kind="show" identifier="ShowTabBarViewControllerAnimatedSegueIdentifier" id="cQa-Oz-eLI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zPS-hN-M1a" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -52,7 +53,15 @@
                 <viewControllerPlaceholder storyboardName="TabBar" referencedIdentifier="TabBarViewController" id="eEv-bS-RgY" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bip-nU-CCs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="378" y="128"/>
+            <point key="canvasLocation" x="377" y="80"/>
+        </scene>
+        <!--TabBarViewController-->
+        <scene sceneID="gJ4-xi-dGv">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TabBar" referencedIdentifier="TabBarViewController" id="iNz-GX-e76" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hcd-Oq-mjj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="377" y="178"/>
         </scene>
     </scenes>
 </document>

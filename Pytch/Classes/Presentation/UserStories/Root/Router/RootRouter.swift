@@ -16,11 +16,11 @@ class RootRouter: RootRouterInput {
     
     func openLogin() {
         if let presented = navigationController.topViewController?.presentedViewController {
-            presented.dismiss(animated: false) {
-                self.navigationController.popToRootViewController(animated: false)
+            presented.dismiss(animated: true) {
+                self.navigationController.popToRootViewController(animated: true)
             }
         } else {
-            navigationController.popToRootViewController(animated: false)
+            navigationController.popToRootViewController(animated: true)
         }
     }
     
