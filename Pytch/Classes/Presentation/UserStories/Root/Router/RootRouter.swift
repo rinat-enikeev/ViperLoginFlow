@@ -17,10 +17,18 @@ class RootRouter: RootRouterInput {
     func openLogin() {
         if let presented = navigationController.topViewController?.presentedViewController {
             presented.dismiss(animated: true) {
-                self.navigationController.popToRootViewController(animated: true)
+                for viewController in self.navigationController.viewControllers {
+                    if viewController is LoginViewController {
+                        self.navigationController.popToViewController(viewController, animated: true)
+                    }
+                }
             }
         } else {
-            navigationController.popToRootViewController(animated: true)
+            for viewController in navigationController.viewControllers {
+                if viewController is LoginViewController {
+                    navigationController.popToViewController(viewController, animated: true)
+                }
+            }
         }
     }
     
