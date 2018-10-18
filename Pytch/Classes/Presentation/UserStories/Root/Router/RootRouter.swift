@@ -15,8 +15,8 @@ class RootRouter: RootRouterInput {
     weak var navigationController: UINavigationController!
     
     func openLogin() {
-        if let modal = navigationController.topViewController?.presentedViewController {
-            modal.dismiss(animated: false) {
+        if let presented = navigationController.topViewController?.presentedViewController {
+            presented.dismiss(animated: false) {
                 self.navigationController.popToRootViewController(animated: false)
             }
         } else {
