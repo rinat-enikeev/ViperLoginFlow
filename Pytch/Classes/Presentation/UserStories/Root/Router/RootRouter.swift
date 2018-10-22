@@ -13,6 +13,7 @@ class RootRouter: RootRouterInput {
     static let shared = RootRouter()
     
     weak var navigationController: UINavigationController!
+    var navigationDelegate: RootNavigationDelegate!
     
     func unwindToLogin() {
         if let presented = navigationController.topViewController?.presentedViewController {

@@ -69,6 +69,9 @@
 		0E79F42A216B4DA700C772E1 /* WebPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79F429216B4DA700C772E1 /* WebPresenter.swift */; };
 		0E79F42C216B4DEE00C772E1 /* WebInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79F42B216B4DEE00C772E1 /* WebInitializer.swift */; };
 		0E79F42E216B4E2400C772E1 /* WebConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79F42D216B4E2400C772E1 /* WebConfigurator.swift */; };
+		0E7F1C80217DDEC9001EF2D2 /* RootNavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7F1C7F217DDEC9001EF2D2 /* RootNavigationDelegate.swift */; };
+		0E7F1C83217DE0AB001EF2D2 /* LoginPushAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7F1C82217DE0AB001EF2D2 /* LoginPushAnimation.swift */; };
+		0E7F1C85217DE1C3001EF2D2 /* LoginPopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7F1C84217DE1C3001EF2D2 /* LoginPopAnimation.swift */; };
 		0E81E4E52167557500772274 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E4E42167557500772274 /* RootRouter.swift */; };
 		0E81E4F12167718400772274 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E81E4F02167718400772274 /* Settings.storyboard */; };
 		0E81E4F3216771C100772274 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E81E4F2216771C100772274 /* SettingsViewController.swift */; };
@@ -180,6 +183,9 @@
 		0E79F429216B4DA700C772E1 /* WebPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPresenter.swift; sourceTree = "<group>"; };
 		0E79F42B216B4DEE00C772E1 /* WebInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebInitializer.swift; sourceTree = "<group>"; };
 		0E79F42D216B4E2400C772E1 /* WebConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebConfigurator.swift; sourceTree = "<group>"; };
+		0E7F1C7F217DDEC9001EF2D2 /* RootNavigationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootNavigationDelegate.swift; sourceTree = "<group>"; };
+		0E7F1C82217DE0AB001EF2D2 /* LoginPushAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPushAnimation.swift; sourceTree = "<group>"; };
+		0E7F1C84217DE1C3001EF2D2 /* LoginPopAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPopAnimation.swift; sourceTree = "<group>"; };
 		0E81E4E42167557500772274 /* RootRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
 		0E81E4F02167718400772274 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		0E81E4F2216771C100772274 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -494,6 +500,7 @@
 			isa = PBXGroup;
 			children = (
 				0E3A227B21771FEA00175D6B /* Storyboard */,
+				0E7F1C7C217DDCFA001EF2D2 /* Transition */,
 				0E3A227F217721D300175D6B /* Assembly */,
 				0E3A227E2177206500175D6B /* Router */,
 			);
@@ -592,6 +599,24 @@
 				0E79F415216B4C1D00C772E1 /* Web.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0E7F1C7C217DDCFA001EF2D2 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				0E7F1C81217DE08A001EF2D2 /* Login */,
+				0E7F1C7F217DDEC9001EF2D2 /* RootNavigationDelegate.swift */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		0E7F1C81217DE08A001EF2D2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0E7F1C82217DE0AB001EF2D2 /* LoginPushAnimation.swift */,
+				0E7F1C84217DE1C3001EF2D2 /* LoginPopAnimation.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		0E81E4E921676D0200772274 /* Settings */ = {
@@ -1005,6 +1030,7 @@
 			files = (
 				0E79F41A216B4CDA00C772E1 /* WebViewInput.swift in Sources */,
 				0E0CEB2E217889C9000CA0A7 /* OnboardInteractor.swift in Sources */,
+				0E7F1C85217DE1C3001EF2D2 /* LoginPopAnimation.swift in Sources */,
 				0E79F41C216B4CE700C772E1 /* WebViewOutput.swift in Sources */,
 				0E0CEAFE21787378000CA0A7 /* AccountViewController.swift in Sources */,
 				0E81E4F5216771FB00772274 /* SettingsViewInput.swift in Sources */,
@@ -1059,6 +1085,7 @@
 				0E8397452166584E004BEA60 /* TabBarConfigurator.swift in Sources */,
 				0E0CEB43217899C5000CA0A7 /* OnboardServiceImpl.swift in Sources */,
 				0E79F428216B4D9600C772E1 /* WebModuleInput.swift in Sources */,
+				0E7F1C80217DDEC9001EF2D2 /* RootNavigationDelegate.swift in Sources */,
 				0E0CEB6A2178A9EE000CA0A7 /* RegisterServiceImpl.swift in Sources */,
 				0E79F418216B4C3A00C772E1 /* WebViewController.swift in Sources */,
 				0E79F42C216B4DEE00C772E1 /* WebInitializer.swift in Sources */,
@@ -1070,6 +1097,7 @@
 				0E839733216655F5004BEA60 /* TabBarViewOutput.swift in Sources */,
 				0E0CEB3921789185000CA0A7 /* OnboardPage1ViewController.swift in Sources */,
 				0E0CEB582178A86F000CA0A7 /* RegisterInteractorInput.swift in Sources */,
+				0E7F1C83217DE0AB001EF2D2 /* LoginPushAnimation.swift in Sources */,
 				0E0CEB282178890D000CA0A7 /* OnboardRouter.swift in Sources */,
 				0E79F422216B4D6100C772E1 /* WebInteractorInput.swift in Sources */,
 				0E81E4FD2167737600772274 /* SettingsInteractorInput.swift in Sources */,
