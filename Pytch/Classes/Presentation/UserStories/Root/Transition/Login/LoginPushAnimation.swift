@@ -29,12 +29,14 @@ class LoginPushAnimation: NSObject, UIViewControllerAnimatedTransitioning {
         fromVC.view.frame = initalFrame
         toVC.view.layer.transform = CATransform3DMakeRotation(CGFloat(Double.pi / 2), 0, 1, 0)
         
+        container.backgroundColor = .black
         UIView.animate(withDuration: transitionDuration(using: transitionContext), delay: 0, options: UIView.AnimationOptions.curveEaseOut, animations: {
             fromVC.view.layer.transform = CATransform3DMakeRotation(CGFloat(-Double.pi / 2), 0, 1, 0)
         }, completion: { (finished) in
             container.bringSubviewToFront(toVC.view)
             UIView.animate(withDuration: self.transitionDuration(using: transitionContext), delay: 0, options: UIView.AnimationOptions.curveEaseOut, animations: { () -> Void in
                 toVC.view.layer.transform = CATransform3DIdentity
+                container.backgroundColor = .white
             }) { (finished: Bool) -> Void in
                 fromVC.view.layer.transform = CATransform3DIdentity
                 transitionContext.completeTransition(!transitionContext.transitionWasCancelled)

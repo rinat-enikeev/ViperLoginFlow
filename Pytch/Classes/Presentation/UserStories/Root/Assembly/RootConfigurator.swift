@@ -15,6 +15,7 @@ class RootConfigurator {
         router.navigationController = navigationController
         router.navigationDelegate = RootNavigationDelegate()
         navigationController.delegate = router.navigationDelegate
+        navigationController.view.backgroundColor = .white
     }
     
 }

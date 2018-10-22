@@ -27,12 +27,14 @@ class LoginPopAnimation: NSObject, UIViewControllerAnimatedTransitioning {
         toVC.view.frame = initalFrame
         toVC.view.layer.transform = CATransform3DMakeRotation(CGFloat(-Double.pi / 2), 0, 1, 0)
         
+        container.backgroundColor = .black
         UIView.animate(withDuration: transitionDuration(using: transitionContext), delay: 0, options: UIView.AnimationOptions.curveEaseOut, animations: { () -> Void in
             fromVC.view.layer.transform = CATransform3DMakeRotation(CGFloat(Double.pi / 2), 0, 1, 0)
         }) { (finished: Bool) -> Void in
             container.bringSubviewToFront(toVC.view)
             UIView.animate(withDuration: self.transitionDuration(using: transitionContext), delay: 0, options: UIView.AnimationOptions.curveEaseOut, animations: { () -> Void in
                 toVC.view.layer.transform = CATransform3DIdentity
+                container.backgroundColor = .white
             }) { (finished: Bool) -> Void in
                 fromVC.view.layer.transform = CATransform3DIdentity
                 transitionContext.completeTransition(!transitionContext.transitionWasCancelled)
