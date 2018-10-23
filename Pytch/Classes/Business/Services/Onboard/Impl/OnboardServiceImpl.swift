@@ -12,5 +12,5 @@ class OnboardServiceImpl: OnboardService {
     
     static let shared = OnboardServiceImpl()
     
-    var isOnboarded: Bool = true
+    var isOnboarded: Bool = false
 }

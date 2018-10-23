@@ -20,12 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let onboardService = OnboardServiceImpl.shared
         
         if loginService.isLoggedIn {
-            rootRouter.skipOnboarding()
             rootRouter.openTabBar()
-        } else {
-            if onboardService.isOnboarded {
-                rootRouter.skipOnboarding()
-            }
+        } else if !onboardService.isOnboarded {
+            rootRouter.openOnboard()
         }
         return true
     }

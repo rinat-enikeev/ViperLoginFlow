@@ -12,6 +12,10 @@ class OnboardPage3ViewController: UIViewController {
     var output: OnboardPage3ViewOutput!
     
     @IBAction func finishButtonTouchUpInside(_ sender: Any) {
-        output.finishFromPage3()
+        output.finish()
     }
+}
+
+extension OnboardPage3ViewController: OnboardPage3ViewInput {
+    
 }

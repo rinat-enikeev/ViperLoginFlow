@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="AJv-vf-oSD">
+            <objects>
+                <viewController storyboardIdentifier="OnboardPage3ViewController" id="61M-CI-3Q4" customClass="OnboardPage3ViewController" customModule="Pytch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8ng-v0-2sE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Onboarding 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MpD-ch-QMn">
+                                <rect key="frame" x="135" y="333" width="105" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SWt-K6-gk8">
+                                <rect key="frame" x="167" y="362" width="41" height="30"/>
+                                <state key="normal" title="Finish"/>
+                                <connections>
+                                    <action selector="finishButtonTouchUpInside:" destination="61M-CI-3Q4" eventType="touchUpInside" id="vDk-4J-AM9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SWt-K6-gk8" firstAttribute="top" secondItem="MpD-ch-QMn" secondAttribute="bottom" constant="8" id="3hP-02-Sex"/>
+                            <constraint firstItem="MpD-ch-QMn" firstAttribute="centerY" secondItem="VrG-gV-D8N" secondAttribute="centerY" id="8Gt-Yt-tiL"/>
+                            <constraint firstItem="SWt-K6-gk8" firstAttribute="centerX" secondItem="MpD-ch-QMn" secondAttribute="centerX" id="ULa-KA-fUX"/>
+                            <constraint firstItem="MpD-ch-QMn" firstAttribute="centerX" secondItem="VrG-gV-D8N" secondAttribute="centerX" id="acs-vQ-ygk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VrG-gV-D8N"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FpM-fo-4jb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="BhF-fN-wzp" customClass="OnboardPage3Initializer" customModule="Pytch" customModuleProvider="target">
+                    <connections>
+                        <outlet property="viewController" destination="61M-CI-3Q4" id="WEA-8S-yl1"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="28" y="179"/>
+        </scene>
+    </scenes>
+</document>

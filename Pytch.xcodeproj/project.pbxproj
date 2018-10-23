@@ -20,19 +20,6 @@
 		0E0CEB10217874D3000CA0A7 /* AccountPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB0F217874D3000CA0A7 /* AccountPresenter.swift */; };
 		0E0CEB122178750E000CA0A7 /* AccountInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB112178750E000CA0A7 /* AccountInitializer.swift */; };
 		0E0CEB142178753D000CA0A7 /* AccountConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB132178753D000CA0A7 /* AccountConfigurator.swift */; };
-		0E0CEB1D21788655000CA0A7 /* Onboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0CEB1C21788655000CA0A7 /* Onboard.storyboard */; };
-		0E0CEB1F217887B3000CA0A7 /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB1E217887B3000CA0A7 /* OnboardViewController.swift */; };
-		0E0CEB22217888A7000CA0A7 /* OnboardViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB21217888A7000CA0A7 /* OnboardViewInput.swift */; };
-		0E0CEB24217888B9000CA0A7 /* OnboardViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB23217888B9000CA0A7 /* OnboardViewOutput.swift */; };
-		0E0CEB26217888FE000CA0A7 /* OnboardRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB25217888FE000CA0A7 /* OnboardRouterInput.swift */; };
-		0E0CEB282178890D000CA0A7 /* OnboardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB272178890D000CA0A7 /* OnboardRouter.swift */; };
-		0E0CEB2A217889A5000CA0A7 /* OnboardInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB29217889A5000CA0A7 /* OnboardInteractorInput.swift */; };
-		0E0CEB2C217889B7000CA0A7 /* OnboardInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB2B217889B7000CA0A7 /* OnboardInteractorOutput.swift */; };
-		0E0CEB2E217889C9000CA0A7 /* OnboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB2D217889C9000CA0A7 /* OnboardInteractor.swift */; };
-		0E0CEB30217889EE000CA0A7 /* OnboardModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB2F217889EE000CA0A7 /* OnboardModuleInput.swift */; };
-		0E0CEB3221788A01000CA0A7 /* OnboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB3121788A01000CA0A7 /* OnboardPresenter.swift */; };
-		0E0CEB3421788B6D000CA0A7 /* OnboardInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB3321788B6D000CA0A7 /* OnboardInitializer.swift */; };
-		0E0CEB3621788BB0000CA0A7 /* OnboardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB3521788BB0000CA0A7 /* OnboardConfigurator.swift */; };
 		0E0CEB3921789185000CA0A7 /* OnboardPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB3821789185000CA0A7 /* OnboardPage1ViewController.swift */; };
 		0E0CEB3B217891B6000CA0A7 /* OnboardPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB3A217891B6000CA0A7 /* OnboardPage2ViewController.swift */; };
 		0E0CEB3D217891DE000CA0A7 /* OnboardPage3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CEB3C217891DE000CA0A7 /* OnboardPage3ViewController.swift */; };
@@ -115,6 +102,14 @@
 		0E8397432166581E004BEA60 /* TabBarInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8397422166581E004BEA60 /* TabBarInitializer.swift */; };
 		0E8397452166584E004BEA60 /* TabBarConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8397442166584E004BEA60 /* TabBarConfigurator.swift */; };
 		0E83974F21666198004BEA60 /* RootRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E83974E21666198004BEA60 /* RootRouterInput.swift */; };
+		0E983512217F131400BB11D5 /* OnboardPage1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E983511217F131400BB11D5 /* OnboardPage1.storyboard */; };
+		0E983517217F137600BB11D5 /* OnboardPage2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E983516217F137600BB11D5 /* OnboardPage2.storyboard */; };
+		0E98351B217F13B400BB11D5 /* OnboardPage3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E98351A217F13B400BB11D5 /* OnboardPage3.storyboard */; };
+		0E983523217F15AF00BB11D5 /* OnboardPage3Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E983522217F15AF00BB11D5 /* OnboardPage3Presenter.swift */; };
+		0E983525217F15C200BB11D5 /* OnboardPage3ViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E983524217F15C200BB11D5 /* OnboardPage3ViewInput.swift */; };
+		0E983527217F15D400BB11D5 /* OnboardPage3ViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E983526217F15D400BB11D5 /* OnboardPage3ViewOutput.swift */; };
+		0E983529217F16A600BB11D5 /* OnboardPage3Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E983528217F16A600BB11D5 /* OnboardPage3Initializer.swift */; };
+		0E98352B217F16F700BB11D5 /* OnboardPage3Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E98352A217F16F700BB11D5 /* OnboardPage3Configurator.swift */; };
 		0EC323B821639C68004592BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC323B721639C68004592BE /* AppDelegate.swift */; };
 		0EC323BF21639C69004592BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC323BE21639C69004592BE /* Assets.xcassets */; };
 		0EC323C221639C69004592BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC323C021639C69004592BE /* LaunchScreen.storyboard */; };
@@ -134,19 +129,6 @@
 		0E0CEB0F217874D3000CA0A7 /* AccountPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPresenter.swift; sourceTree = "<group>"; };
 		0E0CEB112178750E000CA0A7 /* AccountInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInitializer.swift; sourceTree = "<group>"; };
 		0E0CEB132178753D000CA0A7 /* AccountConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountConfigurator.swift; sourceTree = "<group>"; };
-		0E0CEB1C21788655000CA0A7 /* Onboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboard.storyboard; sourceTree = "<group>"; };
-		0E0CEB1E217887B3000CA0A7 /* OnboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
-		0E0CEB21217888A7000CA0A7 /* OnboardViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardViewInput.swift; sourceTree = "<group>"; };
-		0E0CEB23217888B9000CA0A7 /* OnboardViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardViewOutput.swift; sourceTree = "<group>"; };
-		0E0CEB25217888FE000CA0A7 /* OnboardRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardRouterInput.swift; sourceTree = "<group>"; };
-		0E0CEB272178890D000CA0A7 /* OnboardRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardRouter.swift; sourceTree = "<group>"; };
-		0E0CEB29217889A5000CA0A7 /* OnboardInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardInteractorInput.swift; sourceTree = "<group>"; };
-		0E0CEB2B217889B7000CA0A7 /* OnboardInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardInteractorOutput.swift; sourceTree = "<group>"; };
-		0E0CEB2D217889C9000CA0A7 /* OnboardInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardInteractor.swift; sourceTree = "<group>"; };
-		0E0CEB2F217889EE000CA0A7 /* OnboardModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardModuleInput.swift; sourceTree = "<group>"; };
-		0E0CEB3121788A01000CA0A7 /* OnboardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPresenter.swift; sourceTree = "<group>"; };
-		0E0CEB3321788B6D000CA0A7 /* OnboardInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardInitializer.swift; sourceTree = "<group>"; };
-		0E0CEB3521788BB0000CA0A7 /* OnboardConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardConfigurator.swift; sourceTree = "<group>"; };
 		0E0CEB3821789185000CA0A7 /* OnboardPage1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPage1ViewController.swift; sourceTree = "<group>"; };
 		0E0CEB3A217891B6000CA0A7 /* OnboardPage2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPage2ViewController.swift; sourceTree = "<group>"; };
 		0E0CEB3C217891DE000CA0A7 /* OnboardPage3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPage3ViewController.swift; sourceTree = "<group>"; };
@@ -229,6 +211,14 @@
 		0E8397422166581E004BEA60 /* TabBarInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarInitializer.swift; sourceTree = "<group>"; };
 		0E8397442166584E004BEA60 /* TabBarConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarConfigurator.swift; sourceTree = "<group>"; };
 		0E83974E21666198004BEA60 /* RootRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouterInput.swift; sourceTree = "<group>"; };
+		0E983511217F131400BB11D5 /* OnboardPage1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardPage1.storyboard; sourceTree = "<group>"; };
+		0E983516217F137600BB11D5 /* OnboardPage2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardPage2.storyboard; sourceTree = "<group>"; };
+		0E98351A217F13B400BB11D5 /* OnboardPage3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardPage3.storyboard; sourceTree = "<group>"; };
+		0E983522217F15AF00BB11D5 /* OnboardPage3Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPage3Presenter.swift; sourceTree = "<group>"; };
+		0E983524217F15C200BB11D5 /* OnboardPage3ViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPage3ViewInput.swift; sourceTree = "<group>"; };
+		0E983526217F15D400BB11D5 /* OnboardPage3ViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPage3ViewOutput.swift; sourceTree = "<group>"; };
+		0E983528217F16A600BB11D5 /* OnboardPage3Initializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPage3Initializer.swift; sourceTree = "<group>"; };
+		0E98352A217F16F700BB11D5 /* OnboardPage3Configurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPage3Configurator.swift; sourceTree = "<group>"; };
 		0EC323B421639C68004592BE /* Pytch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pytch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC323B721639C68004592BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EC323BE21639C69004592BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -318,80 +308,11 @@
 		0E0CEB15217885EC000CA0A7 /* Onboard */ = {
 			isa = PBXGroup;
 			children = (
-				0E0CEB1B21788623000CA0A7 /* Storyboard */,
-				0E0CEB1A2178861A000CA0A7 /* Assembly */,
-				0E0CEB1921788613000CA0A7 /* Interactor */,
-				0E0CEB182178860E000CA0A7 /* Presenter */,
-				0E0CEB1721788609000CA0A7 /* Router */,
-				0E0CEB16217885F9000CA0A7 /* View */,
+				0E98350D217F12E200BB11D5 /* Page1 */,
+				0E98350E217F12EF00BB11D5 /* Page2 */,
+				0E98350F217F12F700BB11D5 /* Page3 */,
 			);
 			path = Onboard;
-			sourceTree = "<group>";
-		};
-		0E0CEB16217885F9000CA0A7 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				0E0CEB37217890F0000CA0A7 /* Pages */,
-				0E0CEB21217888A7000CA0A7 /* OnboardViewInput.swift */,
-				0E0CEB23217888B9000CA0A7 /* OnboardViewOutput.swift */,
-				0E0CEB1E217887B3000CA0A7 /* OnboardViewController.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		0E0CEB1721788609000CA0A7 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				0E0CEB25217888FE000CA0A7 /* OnboardRouterInput.swift */,
-				0E0CEB272178890D000CA0A7 /* OnboardRouter.swift */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
-		0E0CEB182178860E000CA0A7 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				0E0CEB2F217889EE000CA0A7 /* OnboardModuleInput.swift */,
-				0E0CEB3121788A01000CA0A7 /* OnboardPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		0E0CEB1921788613000CA0A7 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				0E0CEB29217889A5000CA0A7 /* OnboardInteractorInput.swift */,
-				0E0CEB2B217889B7000CA0A7 /* OnboardInteractorOutput.swift */,
-				0E0CEB2D217889C9000CA0A7 /* OnboardInteractor.swift */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		0E0CEB1A2178861A000CA0A7 /* Assembly */ = {
-			isa = PBXGroup;
-			children = (
-				0E0CEB3321788B6D000CA0A7 /* OnboardInitializer.swift */,
-				0E0CEB3521788BB0000CA0A7 /* OnboardConfigurator.swift */,
-			);
-			path = Assembly;
-			sourceTree = "<group>";
-		};
-		0E0CEB1B21788623000CA0A7 /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				0E0CEB1C21788655000CA0A7 /* Onboard.storyboard */,
-			);
-			path = Storyboard;
-			sourceTree = "<group>";
-		};
-		0E0CEB37217890F0000CA0A7 /* Pages */ = {
-			isa = PBXGroup;
-			children = (
-				0E0CEB3821789185000CA0A7 /* OnboardPage1ViewController.swift */,
-				0E0CEB3A217891B6000CA0A7 /* OnboardPage2ViewController.swift */,
-				0E0CEB3C217891DE000CA0A7 /* OnboardPage3ViewController.swift */,
-			);
-			path = Pages;
 			sourceTree = "<group>";
 		};
 		0E0CEB3E21789997000CA0A7 /* Onboard */ = {
@@ -874,6 +795,102 @@
 			path = UserStories;
 			sourceTree = "<group>";
 		};
+		0E98350D217F12E200BB11D5 /* Page1 */ = {
+			isa = PBXGroup;
+			children = (
+				0E983510217F130100BB11D5 /* Storyboard */,
+				0E983513217F131D00BB11D5 /* View */,
+			);
+			path = Page1;
+			sourceTree = "<group>";
+		};
+		0E98350E217F12EF00BB11D5 /* Page2 */ = {
+			isa = PBXGroup;
+			children = (
+				0E983515217F136600BB11D5 /* Storyboard */,
+				0E983514217F136000BB11D5 /* View */,
+			);
+			path = Page2;
+			sourceTree = "<group>";
+		};
+		0E98350F217F12F700BB11D5 /* Page3 */ = {
+			isa = PBXGroup;
+			children = (
+				0E983519217F13A200BB11D5 /* Storyboard */,
+				0E98351C217F155200BB11D5 /* Assembly */,
+				0E98351D217F155E00BB11D5 /* Presenter */,
+				0E983518217F139700BB11D5 /* View */,
+			);
+			path = Page3;
+			sourceTree = "<group>";
+		};
+		0E983510217F130100BB11D5 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0E983511217F131400BB11D5 /* OnboardPage1.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0E983513217F131D00BB11D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CEB3821789185000CA0A7 /* OnboardPage1ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E983514217F136000BB11D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CEB3A217891B6000CA0A7 /* OnboardPage2ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E983515217F136600BB11D5 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0E983516217F137600BB11D5 /* OnboardPage2.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0E983518217F139700BB11D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E983524217F15C200BB11D5 /* OnboardPage3ViewInput.swift */,
+				0E983526217F15D400BB11D5 /* OnboardPage3ViewOutput.swift */,
+				0E0CEB3C217891DE000CA0A7 /* OnboardPage3ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E983519217F13A200BB11D5 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0E98351A217F13B400BB11D5 /* OnboardPage3.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0E98351C217F155200BB11D5 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				0E983528217F16A600BB11D5 /* OnboardPage3Initializer.swift */,
+				0E98352A217F16F700BB11D5 /* OnboardPage3Configurator.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		0E98351D217F155E00BB11D5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0E983522217F15AF00BB11D5 /* OnboardPage3Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		0EC323AB21639C68004592BE = {
 			isa = PBXGroup;
 			children = (
@@ -1010,14 +1027,16 @@
 			files = (
 				0E83972D21665556004BEA60 /* TabBar.storyboard in Resources */,
 				0E83970521664EF5004BEA60 /* Login.storyboard in Resources */,
+				0E98351B217F13B400BB11D5 /* OnboardPage3.storyboard in Resources */,
 				0EC323C221639C69004592BE /* LaunchScreen.storyboard in Resources */,
 				0EC323BF21639C69004592BE /* Assets.xcassets in Resources */,
 				0E3A227D21771FFB00175D6B /* Root.storyboard in Resources */,
 				0E81E4F12167718400772274 /* Settings.storyboard in Resources */,
-				0E0CEB1D21788655000CA0A7 /* Onboard.storyboard in Resources */,
 				0E0CEAFC21787351000CA0A7 /* Account.storyboard in Resources */,
 				0E79F416216B4C1D00C772E1 /* Web.storyboard in Resources */,
 				0E0CEB4C2178A612000CA0A7 /* Register.storyboard in Resources */,
+				0E983517217F137600BB11D5 /* OnboardPage2.storyboard in Resources */,
+				0E983512217F131400BB11D5 /* OnboardPage1.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1029,14 +1048,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E79F41A216B4CDA00C772E1 /* WebViewInput.swift in Sources */,
-				0E0CEB2E217889C9000CA0A7 /* OnboardInteractor.swift in Sources */,
 				0E7F1C85217DE1C3001EF2D2 /* LoginPopAnimation.swift in Sources */,
+				0E983523217F15AF00BB11D5 /* OnboardPage3Presenter.swift in Sources */,
 				0E79F41C216B4CE700C772E1 /* WebViewOutput.swift in Sources */,
 				0E0CEAFE21787378000CA0A7 /* AccountViewController.swift in Sources */,
 				0E81E4F5216771FB00772274 /* SettingsViewInput.swift in Sources */,
 				0E83973721665629004BEA60 /* TabBarRouter.swift in Sources */,
 				0E83972321665432004BEA60 /* LoginInitializer.swift in Sources */,
-				0E0CEB26217888FE000CA0A7 /* OnboardRouterInput.swift in Sources */,
 				0E81E4F3216771C100772274 /* SettingsViewController.swift in Sources */,
 				0E83971921665379004BEA60 /* LoginInteractorOutput.swift in Sources */,
 				0E839721216653D3004BEA60 /* LoginPresenter.swift in Sources */,
@@ -1044,7 +1062,6 @@
 				0E83971121665193004BEA60 /* LoginViewInput.swift in Sources */,
 				0E0CEB642178A92F000CA0A7 /* RegisterConfigurator.swift in Sources */,
 				0E83970D2166513F004BEA60 /* LoginServiceImpl.swift in Sources */,
-				0E0CEB30217889EE000CA0A7 /* OnboardModuleInput.swift in Sources */,
 				0E83971521665215004BEA60 /* LoginRouterInput.swift in Sources */,
 				0E0CEB522178A6C9000CA0A7 /* RegisterViewOutput.swift in Sources */,
 				0E83973D21665667004BEA60 /* TabBarInteractor.swift in Sources */,
@@ -1057,11 +1074,8 @@
 				0E83971721665225004BEA60 /* LoginRouter.swift in Sources */,
 				0E79F42E216B4E2400C772E1 /* WebConfigurator.swift in Sources */,
 				0E0CEB02217873F4000CA0A7 /* AccountViewOutput.swift in Sources */,
-				0E0CEB2A217889A5000CA0A7 /* OnboardInteractorInput.swift in Sources */,
-				0E0CEB24217888B9000CA0A7 /* OnboardViewOutput.swift in Sources */,
 				0E0CEB3D217891DE000CA0A7 /* OnboardPage3ViewController.swift in Sources */,
 				0E81E4E52167557500772274 /* RootRouter.swift in Sources */,
-				0E0CEB2C217889B7000CA0A7 /* OnboardInteractorOutput.swift in Sources */,
 				0E83972F21665591004BEA60 /* TabBarViewController.swift in Sources */,
 				0E79F426216B4D7A00C772E1 /* WebInteractor.swift in Sources */,
 				0E0CEB062178744F000CA0A7 /* AccountRouter.swift in Sources */,
@@ -1079,18 +1093,18 @@
 				0E83971D216653A6004BEA60 /* LoginInteractor.swift in Sources */,
 				0E0CEB0821787490000CA0A7 /* AccountInteractorInput.swift in Sources */,
 				0E83973B21665656004BEA60 /* TabBarInteractorOutput.swift in Sources */,
+				0E983525217F15C200BB11D5 /* OnboardPage3ViewInput.swift in Sources */,
 				0E3A2281217721E300175D6B /* RootInitializer.swift in Sources */,
 				0E3A22832177222700175D6B /* RootConfigurator.swift in Sources */,
-				0E0CEB3421788B6D000CA0A7 /* OnboardInitializer.swift in Sources */,
 				0E8397452166584E004BEA60 /* TabBarConfigurator.swift in Sources */,
 				0E0CEB43217899C5000CA0A7 /* OnboardServiceImpl.swift in Sources */,
 				0E79F428216B4D9600C772E1 /* WebModuleInput.swift in Sources */,
 				0E7F1C80217DDEC9001EF2D2 /* RootNavigationDelegate.swift in Sources */,
+				0E98352B217F16F700BB11D5 /* OnboardPage3Configurator.swift in Sources */,
 				0E0CEB6A2178A9EE000CA0A7 /* RegisterServiceImpl.swift in Sources */,
 				0E79F418216B4C3A00C772E1 /* WebViewController.swift in Sources */,
 				0E79F42C216B4DEE00C772E1 /* WebInitializer.swift in Sources */,
 				0E83970F2166517E004BEA60 /* LoginViewController.swift in Sources */,
-				0E0CEB3621788BB0000CA0A7 /* OnboardConfigurator.swift in Sources */,
 				0E81E4F92167734400772274 /* SettingsRouterInput.swift in Sources */,
 				0E0CEB5A2178A87D000CA0A7 /* RegisterInteractorOutput.swift in Sources */,
 				0E0CEB122178750E000CA0A7 /* AccountInitializer.swift in Sources */,
@@ -1098,15 +1112,13 @@
 				0E0CEB3921789185000CA0A7 /* OnboardPage1ViewController.swift in Sources */,
 				0E0CEB582178A86F000CA0A7 /* RegisterInteractorInput.swift in Sources */,
 				0E7F1C83217DE0AB001EF2D2 /* LoginPushAnimation.swift in Sources */,
-				0E0CEB282178890D000CA0A7 /* OnboardRouter.swift in Sources */,
+				0E983529217F16A600BB11D5 /* OnboardPage3Initializer.swift in Sources */,
 				0E79F422216B4D6100C772E1 /* WebInteractorInput.swift in Sources */,
 				0E81E4FD2167737600772274 /* SettingsInteractorInput.swift in Sources */,
 				0E0CEB5C2178A88A000CA0A7 /* RegisterInteractor.swift in Sources */,
 				0E81E4FB2167735600772274 /* SettingsRouter.swift in Sources */,
 				0E81E509216774B900772274 /* SettingsConfigurator.swift in Sources */,
-				0E0CEB22217888A7000CA0A7 /* OnboardViewInput.swift in Sources */,
 				0E0CEB602178A8BA000CA0A7 /* RegisterPresenter.swift in Sources */,
-				0E0CEB1F217887B3000CA0A7 /* OnboardViewController.swift in Sources */,
 				0EC323B821639C68004592BE /* AppDelegate.swift in Sources */,
 				0E0CEB3B217891B6000CA0A7 /* OnboardPage2ViewController.swift in Sources */,
 				0E839731216655E5004BEA60 /* TabBarViewInput.swift in Sources */,
@@ -1114,6 +1126,7 @@
 				0E83973921665649004BEA60 /* TabBarInteractorInput.swift in Sources */,
 				0E0CEB542178A83A000CA0A7 /* RegisterRouterInput.swift in Sources */,
 				0E0CEB562178A84A000CA0A7 /* RegisterRouter.swift in Sources */,
+				0E983527217F15D400BB11D5 /* OnboardPage3ViewOutput.swift in Sources */,
 				0E83973F216657CC004BEA60 /* TabBarModuleInput.swift in Sources */,
 				0E8397432166581E004BEA60 /* TabBarInitializer.swift in Sources */,
 				0E0CEB142178753D000CA0A7 /* AccountConfigurator.swift in Sources */,
@@ -1123,7 +1136,6 @@
 				0E81E4F72167723500772274 /* SettingsViewOutput.swift in Sources */,
 				0E81E503216773B400772274 /* SettingsModuleInput.swift in Sources */,
 				0E83971B2166539B004BEA60 /* LoginInteractorInput.swift in Sources */,
-				0E0CEB3221788A01000CA0A7 /* OnboardPresenter.swift in Sources */,
 				0E0CEB4E2178A631000CA0A7 /* RegisterViewController.swift in Sources */,
 				0E0CEB502178A6BA000CA0A7 /* RegisterViewInput.swift in Sources */,
 				0E0CEB40217899AA000CA0A7 /* OnboardService.swift in Sources */,

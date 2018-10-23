@@ -38,8 +38,8 @@ class RootRouter: RootRouterInput {
         navigationController.topViewController?.performSegue(withIdentifier: LoginSegue.tabBar.rawValue, sender: nil)
     }
     
-    func skipOnboarding() {
-        assert(navigationController.topViewController is OnboardViewController)
-        navigationController.topViewController?.performSegue(withIdentifier: OnboardSegue.login.rawValue, sender: nil)
+    func openOnboard() {
+        assert(navigationController.topViewController is LoginViewController)
+        navigationController.topViewController?.performSegue(withIdentifier: LoginSegue.onboard.rawValue, sender: nil)
     }
 }
