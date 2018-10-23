@@ -10,16 +10,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Onboard Page1 View Controller-->
+        <!--Onboard Initial View Controller-->
         <scene sceneID="0lv-J3-YmT">
             <objects>
-                <viewController storyboardIdentifier="OnboardPage1ViewController" id="OiO-WK-xVf" customClass="OnboardPage1ViewController" customModule="Pytch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OnboardInitialViewController" id="OiO-WK-xVf" customClass="OnboardInitialViewController" customModule="Pytch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z4I-fE-9Kb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Onboarding 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeg-gM-VYj">
-                                <rect key="frame" x="136" y="333" width="103" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Onboarding Initial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeg-gM-VYj">
+                                <rect key="frame" x="120" y="333" width="135" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

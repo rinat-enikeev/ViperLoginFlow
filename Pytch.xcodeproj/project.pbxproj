@@ -102,7 +102,7 @@
 		0E8397432166581E004BEA60 /* TabBarInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8397422166581E004BEA60 /* TabBarInitializer.swift */; };
 		0E8397452166584E004BEA60 /* TabBarConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8397442166584E004BEA60 /* TabBarConfigurator.swift */; };
 		0E83974F21666198004BEA60 /* RootRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E83974E21666198004BEA60 /* RootRouterInput.swift */; };
-		0E983512217F131400BB11D5 /* OnboardPage1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E983511217F131400BB11D5 /* OnboardPage1.storyboard */; };
+		0E983512217F131400BB11D5 /* OnboardInitial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E983511217F131400BB11D5 /* OnboardInitial.storyboard */; };
 		0E983517217F137600BB11D5 /* OnboardPage2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E983516217F137600BB11D5 /* OnboardPage2.storyboard */; };
 		0E98351B217F13B400BB11D5 /* OnboardPage3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E98351A217F13B400BB11D5 /* OnboardPage3.storyboard */; };
 		0E983523217F15AF00BB11D5 /* OnboardPage3Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E983522217F15AF00BB11D5 /* OnboardPage3Presenter.swift */; };
@@ -211,7 +211,7 @@
 		0E8397422166581E004BEA60 /* TabBarInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarInitializer.swift; sourceTree = "<group>"; };
 		0E8397442166584E004BEA60 /* TabBarConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarConfigurator.swift; sourceTree = "<group>"; };
 		0E83974E21666198004BEA60 /* RootRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouterInput.swift; sourceTree = "<group>"; };
-		0E983511217F131400BB11D5 /* OnboardPage1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardPage1.storyboard; sourceTree = "<group>"; };
+		0E983511217F131400BB11D5 /* OnboardInitial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardInitial.storyboard; sourceTree = "<group>"; };
 		0E983516217F137600BB11D5 /* OnboardPage2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardPage2.storyboard; sourceTree = "<group>"; };
 		0E98351A217F13B400BB11D5 /* OnboardPage3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardPage3.storyboard; sourceTree = "<group>"; };
 		0E983522217F15AF00BB11D5 /* OnboardPage3Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPage3Presenter.swift; sourceTree = "<group>"; };
@@ -308,9 +308,9 @@
 		0E0CEB15217885EC000CA0A7 /* Onboard */ = {
 			isa = PBXGroup;
 			children = (
-				0E98350D217F12E200BB11D5 /* Page1 */,
+				0E98350D217F12E200BB11D5 /* Initial */,
 				0E98350E217F12EF00BB11D5 /* Page2 */,
-				0E98350F217F12F700BB11D5 /* Page3 */,
+				0E98350F217F12F700BB11D5 /* Last */,
 			);
 			path = Onboard;
 			sourceTree = "<group>";
@@ -526,6 +526,7 @@
 			isa = PBXGroup;
 			children = (
 				0E7F1C81217DE08A001EF2D2 /* Login */,
+				0E98352C217F192000BB11D5 /* Onboard */,
 				0E7F1C7F217DDEC9001EF2D2 /* RootNavigationDelegate.swift */,
 			);
 			path = Transition;
@@ -795,13 +796,13 @@
 			path = UserStories;
 			sourceTree = "<group>";
 		};
-		0E98350D217F12E200BB11D5 /* Page1 */ = {
+		0E98350D217F12E200BB11D5 /* Initial */ = {
 			isa = PBXGroup;
 			children = (
 				0E983510217F130100BB11D5 /* Storyboard */,
 				0E983513217F131D00BB11D5 /* View */,
 			);
-			path = Page1;
+			path = Initial;
 			sourceTree = "<group>";
 		};
 		0E98350E217F12EF00BB11D5 /* Page2 */ = {
@@ -813,7 +814,7 @@
 			path = Page2;
 			sourceTree = "<group>";
 		};
-		0E98350F217F12F700BB11D5 /* Page3 */ = {
+		0E98350F217F12F700BB11D5 /* Last */ = {
 			isa = PBXGroup;
 			children = (
 				0E983519217F13A200BB11D5 /* Storyboard */,
@@ -821,13 +822,13 @@
 				0E98351D217F155E00BB11D5 /* Presenter */,
 				0E983518217F139700BB11D5 /* View */,
 			);
-			path = Page3;
+			path = Last;
 			sourceTree = "<group>";
 		};
 		0E983510217F130100BB11D5 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				0E983511217F131400BB11D5 /* OnboardPage1.storyboard */,
+				0E983511217F131400BB11D5 /* OnboardInitial.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -889,6 +890,13 @@
 				0E983522217F15AF00BB11D5 /* OnboardPage3Presenter.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0E98352C217F192000BB11D5 /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboard;
 			sourceTree = "<group>";
 		};
 		0EC323AB21639C68004592BE = {
@@ -1036,7 +1044,7 @@
 				0E79F416216B4C1D00C772E1 /* Web.storyboard in Resources */,
 				0E0CEB4C2178A612000CA0A7 /* Register.storyboard in Resources */,
 				0E983517217F137600BB11D5 /* OnboardPage2.storyboard in Resources */,
-				0E983512217F131400BB11D5 /* OnboardPage1.storyboard in Resources */,
+				0E983512217F131400BB11D5 /* OnboardInitial.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

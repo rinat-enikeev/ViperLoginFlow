@@ -1,5 +1,5 @@
 //
-//  OnboardPage1ViewController.swift
+//  OnboardInitialViewController.swift
 //  Pytch
 //
 //  Created by Rinat Enikeev on 18/10/2018.
@@ -8,6 +8,6 @@
 
 import UIKit
 
-class OnboardPage1ViewController: UIViewController {
+class OnboardInitialViewController: UIViewController {
     
 }

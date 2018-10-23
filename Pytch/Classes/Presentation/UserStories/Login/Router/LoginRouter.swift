@@ -12,7 +12,7 @@ enum LoginSegue: String {
     case tabBar = "ShowTabBarViewControllerSegueIdentifier"
     case tabBarAnimated = "ShowTabBarViewControllerAnimatedSegueIdentifier"
     case register = "ShowRegisterViewControllerSegueIdentifier"
-    case onboard = "ShowOnboardPage1ViewControllerSegueIdentifier"
+    case onboard = "ShowOnboardInitialViewControllerSegueIdentifier"
 }
 
 class LoginRouter: LoginRouterInput {
