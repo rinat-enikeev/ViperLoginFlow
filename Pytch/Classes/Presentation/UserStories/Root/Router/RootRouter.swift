@@ -18,18 +18,10 @@ class RootRouter: RootRouterInput {
     func unwindToLogin() {
         if let presented = navigationController.topViewController?.presentedViewController {
             presented.dismiss(animated: true) {
-                for viewController in self.navigationController.viewControllers {
-                    if viewController is LoginViewController {
-                        self.navigationController.popToViewController(viewController, animated: true)
-                    }
-                }
+                self.navigationController.popToRootViewController(animated: true)
             }
         } else {
-            for viewController in navigationController.viewControllers {
-                if viewController is LoginViewController {
-                    navigationController.popToViewController(viewController, animated: true)
-                }
-            }
+            navigationController.popToRootViewController(animated: true)
         }
     }
     
