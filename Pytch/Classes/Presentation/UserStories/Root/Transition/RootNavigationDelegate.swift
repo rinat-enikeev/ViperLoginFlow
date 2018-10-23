@@ -15,6 +15,8 @@ class RootNavigationDelegate: NSObject, UINavigationControllerDelegate {
             return LoginPopAnimation()
         } else if fromVC is LoginViewController && toVC is TabBarViewController && operation == .push {
             return LoginPushAnimation()
+        } else if fromVC is OnboardLastViewController && toVC is LoginViewController && operation == .pop {
+            return OnboardFinishAnimation()
         } else {
             return nil
         }

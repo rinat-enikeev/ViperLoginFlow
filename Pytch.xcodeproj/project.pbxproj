@@ -110,6 +110,7 @@
 		0E983527217F15D400BB11D5 /* OnboardPage3ViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E983526217F15D400BB11D5 /* OnboardPage3ViewOutput.swift */; };
 		0E983529217F16A600BB11D5 /* OnboardPage3Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E983528217F16A600BB11D5 /* OnboardPage3Initializer.swift */; };
 		0E98352B217F16F700BB11D5 /* OnboardPage3Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E98352A217F16F700BB11D5 /* OnboardPage3Configurator.swift */; };
+		0E98352E217F1E5500BB11D5 /* OnboardFinishAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E98352D217F1E5500BB11D5 /* OnboardFinishAnimation.swift */; };
 		0EC323B821639C68004592BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC323B721639C68004592BE /* AppDelegate.swift */; };
 		0EC323BF21639C69004592BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC323BE21639C69004592BE /* Assets.xcassets */; };
 		0EC323C221639C69004592BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC323C021639C69004592BE /* LaunchScreen.storyboard */; };
@@ -219,6 +220,7 @@
 		0E983526217F15D400BB11D5 /* OnboardPage3ViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPage3ViewOutput.swift; sourceTree = "<group>"; };
 		0E983528217F16A600BB11D5 /* OnboardPage3Initializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPage3Initializer.swift; sourceTree = "<group>"; };
 		0E98352A217F16F700BB11D5 /* OnboardPage3Configurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPage3Configurator.swift; sourceTree = "<group>"; };
+		0E98352D217F1E5500BB11D5 /* OnboardFinishAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardFinishAnimation.swift; sourceTree = "<group>"; };
 		0EC323B421639C68004592BE /* Pytch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pytch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC323B721639C68004592BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EC323BE21639C69004592BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -895,6 +897,7 @@
 		0E98352C217F192000BB11D5 /* Onboard */ = {
 			isa = PBXGroup;
 			children = (
+				0E98352D217F1E5500BB11D5 /* OnboardFinishAnimation.swift */,
 			);
 			path = Onboard;
 			sourceTree = "<group>";
@@ -1134,6 +1137,7 @@
 				0E83973921665649004BEA60 /* TabBarInteractorInput.swift in Sources */,
 				0E0CEB542178A83A000CA0A7 /* RegisterRouterInput.swift in Sources */,
 				0E0CEB562178A84A000CA0A7 /* RegisterRouter.swift in Sources */,
+				0E98352E217F1E5500BB11D5 /* OnboardFinishAnimation.swift in Sources */,
 				0E983527217F15D400BB11D5 /* OnboardPage3ViewOutput.swift in Sources */,
 				0E83973F216657CC004BEA60 /* TabBarModuleInput.swift in Sources */,
 				0E8397432166581E004BEA60 /* TabBarInitializer.swift in Sources */,
