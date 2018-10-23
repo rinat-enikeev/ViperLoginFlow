@@ -1,5 +1,5 @@
 //
-//  OnboardPage3ViewOutput.swift
+//  OnboardLastViewOutput.swift
 //  Pytch
 //
 //  Created by Rinat Enikeev on 23/10/2018.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol OnboardPage3ViewOutput {
+protocol OnboardLastViewOutput {
     func finish()
 }

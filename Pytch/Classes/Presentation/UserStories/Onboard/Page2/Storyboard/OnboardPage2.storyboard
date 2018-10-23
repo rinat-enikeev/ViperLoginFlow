@@ -46,10 +46,10 @@
             </objects>
             <point key="canvasLocation" x="94" y="199"/>
         </scene>
-        <!--OnboardPage3ViewController-->
+        <!--OnboardLastViewController-->
         <scene sceneID="brV-v2-539">
             <objects>
-                <viewControllerPlaceholder storyboardName="OnboardPage3" referencedIdentifier="OnboardPage3ViewController" id="iN6-fO-ycU" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="OnboardLast" referencedIdentifier="OnboardLastViewController" id="iN6-fO-ycU" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ac5-19-iG6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="668" y="198"/>

@@ -1,5 +1,5 @@
 //
-//  OnboardPage3ViewController.swift
+//  OnboardLastViewController.swift
 //  Pytch
 //
 //  Created by Rinat Enikeev on 18/10/2018.
@@ -8,14 +8,14 @@
 
 import UIKit
 
-class OnboardPage3ViewController: UIViewController {
-    var output: OnboardPage3ViewOutput!
+class OnboardLastViewController: UIViewController {
+    var output: OnboardLastViewOutput!
     
     @IBAction func finishButtonTouchUpInside(_ sender: Any) {
         output.finish()
     }
 }
 
-extension OnboardPage3ViewController: OnboardPage3ViewInput {
+extension OnboardLastViewController: OnboardLastViewInput {
     
 }

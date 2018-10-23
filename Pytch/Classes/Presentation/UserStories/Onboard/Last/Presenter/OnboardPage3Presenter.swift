@@ -1,5 +1,5 @@
 //
-//  OnboardPage3Presenter.swift
+//  OnboardLastPresenter.swift
 //  Pytch
 //
 //  Created by Rinat Enikeev on 23/10/2018.
@@ -8,12 +8,12 @@
 
 import Foundation
 
-class OnboardPage3Presenter {
-    weak var view: OnboardPage3ViewInput!
+class OnboardLastPresenter {
+    weak var view: OnboardLastViewInput!
     var rootRouter: RootRouterInput!
 }
 
-extension OnboardPage3Presenter: OnboardPage3ViewOutput {
+extension OnboardLastPresenter: OnboardLastViewOutput {
     func finish() {
         rootRouter.unwindToLogin()
     }

@@ -1,5 +1,5 @@
 //
-//  OnboardPage3Initializer.swift
+//  OnboardLastInitializer.swift
 //  Pytch
 //
 //  Created by Rinat Enikeev on 23/10/2018.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-class OnboardPage3Initializer: NSObject {
-    @IBOutlet weak var viewController: OnboardPage3ViewController!
+class OnboardLastInitializer: NSObject {
+    @IBOutlet weak var viewController: OnboardLastViewController!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        OnboardPage3Configurator().configure(view: viewController)
+        OnboardLastConfigurator().configure(view: viewController)
     }
 }

@@ -1,5 +1,5 @@
 //
-//  OnboardPage3Configurator.swift
+//  OnboardLastConfigurator.swift
 //  Pytch
 //
 //  Created by Rinat Enikeev on 23/10/2018.
@@ -8,9 +8,9 @@
 
 import Foundation
 
-class OnboardPage3Configurator {
-    func configure(view: OnboardPage3ViewController) {
-        let presenter = OnboardPage3Presenter()
+class OnboardLastConfigurator {
+    func configure(view: OnboardLastViewController) {
+        let presenter = OnboardLastPresenter()
         presenter.view = view
         presenter.rootRouter = RootRouter.shared
         view.output = presenter

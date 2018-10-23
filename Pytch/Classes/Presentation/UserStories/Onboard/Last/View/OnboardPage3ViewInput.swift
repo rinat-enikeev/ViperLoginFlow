@@ -1,5 +1,5 @@
 //
-//  OnboardPage3ViewInput.swift
+//  OnboardLastViewInput.swift
 //  Pytch
 //
 //  Created by Rinat Enikeev on 23/10/2018.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol OnboardPage3ViewInput: class {
+protocol OnboardLastViewInput: class {
     
 }

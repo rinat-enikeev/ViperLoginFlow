@@ -104,7 +104,7 @@
 		0E83974F21666198004BEA60 /* RootRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E83974E21666198004BEA60 /* RootRouterInput.swift */; };
 		0E983512217F131400BB11D5 /* OnboardInitial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E983511217F131400BB11D5 /* OnboardInitial.storyboard */; };
 		0E983517217F137600BB11D5 /* OnboardPage2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E983516217F137600BB11D5 /* OnboardPage2.storyboard */; };
-		0E98351B217F13B400BB11D5 /* OnboardPage3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E98351A217F13B400BB11D5 /* OnboardPage3.storyboard */; };
+		0E98351B217F13B400BB11D5 /* OnboardLast.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E98351A217F13B400BB11D5 /* OnboardLast.storyboard */; };
 		0E983523217F15AF00BB11D5 /* OnboardPage3Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E983522217F15AF00BB11D5 /* OnboardPage3Presenter.swift */; };
 		0E983525217F15C200BB11D5 /* OnboardPage3ViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E983524217F15C200BB11D5 /* OnboardPage3ViewInput.swift */; };
 		0E983527217F15D400BB11D5 /* OnboardPage3ViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E983526217F15D400BB11D5 /* OnboardPage3ViewOutput.swift */; };
@@ -213,7 +213,7 @@
 		0E83974E21666198004BEA60 /* RootRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouterInput.swift; sourceTree = "<group>"; };
 		0E983511217F131400BB11D5 /* OnboardInitial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardInitial.storyboard; sourceTree = "<group>"; };
 		0E983516217F137600BB11D5 /* OnboardPage2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardPage2.storyboard; sourceTree = "<group>"; };
-		0E98351A217F13B400BB11D5 /* OnboardPage3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardPage3.storyboard; sourceTree = "<group>"; };
+		0E98351A217F13B400BB11D5 /* OnboardLast.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardLast.storyboard; sourceTree = "<group>"; };
 		0E983522217F15AF00BB11D5 /* OnboardPage3Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPage3Presenter.swift; sourceTree = "<group>"; };
 		0E983524217F15C200BB11D5 /* OnboardPage3ViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPage3ViewInput.swift; sourceTree = "<group>"; };
 		0E983526217F15D400BB11D5 /* OnboardPage3ViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPage3ViewOutput.swift; sourceTree = "<group>"; };
@@ -870,7 +870,7 @@
 		0E983519217F13A200BB11D5 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				0E98351A217F13B400BB11D5 /* OnboardPage3.storyboard */,
+				0E98351A217F13B400BB11D5 /* OnboardLast.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -1035,7 +1035,7 @@
 			files = (
 				0E83972D21665556004BEA60 /* TabBar.storyboard in Resources */,
 				0E83970521664EF5004BEA60 /* Login.storyboard in Resources */,
-				0E98351B217F13B400BB11D5 /* OnboardPage3.storyboard in Resources */,
+				0E98351B217F13B400BB11D5 /* OnboardLast.storyboard in Resources */,
 				0EC323C221639C69004592BE /* LaunchScreen.storyboard in Resources */,
 				0EC323BF21639C69004592BE /* Assets.xcassets in Resources */,
 				0E3A227D21771FFB00175D6B /* Root.storyboard in Resources */,

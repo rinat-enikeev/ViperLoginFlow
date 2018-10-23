@@ -13,13 +13,13 @@
         <!--View Controller-->
         <scene sceneID="AJv-vf-oSD">
             <objects>
-                <viewController storyboardIdentifier="OnboardPage3ViewController" id="61M-CI-3Q4" customClass="OnboardPage3ViewController" customModule="Pytch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OnboardLastViewController" id="61M-CI-3Q4" customClass="OnboardLastViewController" customModule="Pytch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8ng-v0-2sE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Onboarding 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MpD-ch-QMn">
-                                <rect key="frame" x="135" y="333" width="105" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Onboarding Last" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MpD-ch-QMn">
+                                <rect key="frame" x="123.5" y="333" width="128" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -43,7 +43,7 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FpM-fo-4jb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="BhF-fN-wzp" customClass="OnboardPage3Initializer" customModule="Pytch" customModuleProvider="target">
+                <customObject id="BhF-fN-wzp" customClass="OnboardLastInitializer" customModule="Pytch" customModuleProvider="target">
                     <connections>
                         <outlet property="viewController" destination="61M-CI-3Q4" id="WEA-8S-yl1"/>
                     </connections>
